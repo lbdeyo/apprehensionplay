@@ -9,14 +9,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  params
-}: Readonly<{
+}: {
   children: React.ReactNode;
-  params?: { segment?: string[] };
-}>) {
-  // Check if the current route is the homepage
-  const isHome = typeof window === "undefined" && (!params?.segment || params.segment.length === 0);
-
+}) {
   return (
     <html lang="en">
       <head>
@@ -24,13 +19,9 @@ export default function RootLayout({
       </head>
       <body>
         <Navigation />
-        {isHome ? (
-          children
-        ) : (
-          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            {children}
-          </main>
-        )}
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {children}
+        </main>
       </body>
     </html>
   );
