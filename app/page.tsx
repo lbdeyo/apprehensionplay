@@ -24,7 +24,7 @@ export default function Home() {
             </p>
           </div>
           <div className="w-9xl">
-            <p className="text-[#BEB58F] text-2xl md:text-7xl rotate-180"  >Nothing is real and everything is permissible.</p>
+            <p className="text-[#BEB58F] text-2xl md:text-7xl rotate-180">Nothing is real and everything is permissible.</p>
           </div>
           <div className="flex flex-col md:flex-row">
             <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#e2dbc5] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
