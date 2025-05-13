@@ -13,7 +13,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="space-y-4 text-left">
           <div className="relative w-full max-w-max">
-            <p className="text-2xl mt-4s md:mt-14  md:text-4xl text-[#BEB58F]  ml-auto" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+            <p className="text-2xl mt-4 md:mt-14  md:text-4xl text-center text-[#BEB58F]  ml-auto" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
               Jennymarie Jemison &emsp; Jeff Mills &emsp; Michelle Keffer
             </p>
             <h1 className="text-6xl md:text-9xl lg:text-9xl text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F]" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
