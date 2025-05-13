@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="relative w-full min-h-screen">
       {/* Full-bleed background image */}
-      <div className="absolute inset-0 w-full h-full bg-cover bg-top bg-no-repeat z-0" style={{ backgroundImage: 'url(/img/home-bg.jpg)' }} />
+      <div className="absolute inset-0 w-full h-full bg-cover bg-top bg-no-repeat z-0" style={{ backgroundImage: 'url(/img/apprehension-bg-red.jpg)' }} />
       {/* Overlay */}
       <div className="absolute inset-0 w-full h-full bg-[#070C17]/15 z-10" />
       {/* Constrained content */}
@@ -13,7 +13,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="space-y-4 text-left">
           <div className="relative w-full max-w-max">
-            <p className="text-2xl mt-4 md:mt-14  md:text-4xl text-center text-[#BEB58F]  ml-auto" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+            <p className="text-2xl mt-6 md:mt-14 md:text-4xl text-right text-[#BEB58F]  ml-auto" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
               Jennymarie Jemison &emsp; Jeff Mills &emsp; Michelle Keffer
             </p>
             <h1 className="text-6xl md:text-9xl lg:text-9xl text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F]" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
@@ -24,10 +24,10 @@ export default function Home() {
             </p>
           </div>
           <div className="w-9xl">
-            <p className="text-[#BEB58F] text-2xl md:text-7xl rotate-180">Nothing is real and everything is permissible.</p>
+            <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>Nothing is real and everything is permissible.</p>
           </div>
           <div className="flex flex-col md:flex-row">
-            <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#e2dbc5] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
+            <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
               <p className="md:my-2">
                 By L.B. Deyo
               </p>
@@ -39,7 +39,7 @@ export default function Home() {
               </p>
 
             </div>
-            <div className="p-5 bg-[url('/img/bg-texture-red.png')] bg-blend-soft-light  border-b border-[#BEB58F] md:max-w-[50%] text-[#e2dbc5] text-2xl md:text-3xl" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+            <div className="p-5  border-b border-dashed border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
 
               <p className="md:my-2">
                 Oct. 9-Nov. 1, Thurs-Sat, 7:30pm

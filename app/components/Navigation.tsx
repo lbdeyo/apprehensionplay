@@ -16,7 +16,7 @@ export default function Navigation() {
     ];
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-[#3d0101] shadow-[0_4px_8px_-1px_rgba(0,0,0,0.3),0_2px_6px_-1px_rgba(0,0,0,0.2)] z-50">
+        <nav className="fixed top-0 left-0 w-full bg-[#a8a07e] shadow-[0_4px_8px_-1px_rgba(0,0,0,0.3),0_2px_6px_-1px_rgba(0,0,0,0.2)] z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20 items-center">
                     <div className="flex">
