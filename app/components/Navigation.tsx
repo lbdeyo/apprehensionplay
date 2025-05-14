@@ -22,14 +22,16 @@ export default function Navigation() {
                     <div className="flex">
                         <div className="flex-shrink-0 flex items-center">
                             <Link href="/" className="inline-flex items-center" aria-label="Home">
-                                <Image
-                                    src="/img/logo.png"
-                                    alt="Apprehension Play logo"
-                                    width={309}
-                                    height={88}
-                                    style={{ height: '88px', width: 'auto' }}
-                                    priority
-                                />
+                                <div className="transition-transform duration-200 hover:scale-115">
+                                    <Image
+                                        src="/img/logo.png"
+                                        alt="Apprehension Play logo"
+                                        width={340}
+                                        height={97}
+                                        style={{ height: '97px', width: 'auto' }}
+                                        priority
+                                    />
+                                </div>
                             </Link>
                         </div>
                     </div>
@@ -40,7 +42,7 @@ export default function Navigation() {
                             <Link
                                 key={item.path}
                                 href={item.path}
-                                className="px-3 py-2 rounded-md text-lg text-white hover:text-white hover:bg-[#b32b17] transition-colors"
+                                className="px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
                             >
                                 {item.name}
                             </Link>
@@ -76,7 +78,7 @@ export default function Navigation() {
                             <Link
                                 key={item.path}
                                 href={item.path}
-                                className="block px-3 py-2 rounded-md text-lg text-white hover:text-white hover:bg-[#b32b17] transition-colors"
+                                className="block px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 {item.name}

@@ -1,38 +1,123 @@
+'use client';
+
+import { useState } from 'react';
+
 export default function Media() {
+    const [selectedMedia, setSelectedMedia] = useState<{ type: 'video' | 'image', src: string } | null>(null);
+
+    const handleMediaClick = (type: 'video' | 'image', src: string) => {
+        setSelectedMedia({ type, src });
+    };
+
+    const handleCloseModal = () => {
+        setSelectedMedia(null);
+    };
+
     return (
-        <div className="space-y-12">
-            <h1 className="text-4xl">Media</h1>
-
-            <section className="space-y-6">
-                <h2 className="text-2xl">Photos</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* Photo gallery will go here */}
-                    <div className="aspect-square bg-gray-100 rounded-lg flex items-center justify-center">
-                        <p className="text-gray-500">[Photo Placeholder]</p>
+        <div className="relative w-full min-h-screen">
+            {/* Full-bleed background image */}
+            <div className="absolute inset-0 w-full h-full bg-cover bg-top bg-no-repeat z-0" style={{ backgroundImage: 'url(/img/apprehension-poster-concept-bg.jpg)' }} />
+            {/* Overlay */}
+            <div className="absolute inset-0 w-full h-full bg-[#070C17]/15 z-10" />
+            {/* Constrained content */}
+            <div className="relative z-20 w-full max-w-7xl mx-auto space-y-12 pt-20 pb-16 text-left px-4 sm:px-6 lg:px-8">
+                {/* Hero Section */}
+                <section className="space-y-4 text-left">
+                    <div className="relative w-full max-w-max">
+                        <h1 className="text-6xl md:text-9xl lg:text-9xl text-white mt-6 md:mt-5 inline-block" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+                            Media
+                        </h1>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section className="space-y-6">
-                <h2 className="text-2xl">Trailers</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* Video trailers will go here */}
-                    <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
-                        <p className="text-gray-500">[Video Placeholder]</p>
+                {/* Media Grid Section */}
+                <section className="mt-16">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[200px]">
+                        {/* Placeholder items - these will be replaced with actual media content */}
+                        <div
+                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
+                            onClick={() => handleMediaClick('video', '/path/to/video1')}
+                        >
+                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
+                                [Video Placeholder]
+                            </div>
+                        </div>
+                        <div
+                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
+                            onClick={() => handleMediaClick('image', '/path/to/image1')}
+                        >
+                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
+                                [Image Placeholder]
+                            </div>
+                        </div>
+                        <div
+                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
+                            onClick={() => handleMediaClick('video', '/path/to/video2')}
+                        >
+                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
+                                [Video Placeholder]
+                            </div>
+                        </div>
+                        <div
+                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
+                            onClick={() => handleMediaClick('image', '/path/to/image2')}
+                        >
+                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
+                                [Image Placeholder]
+                            </div>
+                        </div>
+                        <div
+                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
+                            onClick={() => handleMediaClick('video', '/path/to/video3')}
+                        >
+                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
+                                [Video Placeholder]
+                            </div>
+                        </div>
+                        <div
+                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
+                            onClick={() => handleMediaClick('image', '/path/to/image3')}
+                        >
+                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
+                                [Image Placeholder]
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section className="space-y-6">
-                <h2 className="text-2xl">Pull Quotes</h2>
-                <div className="space-y-4">
-                    {/* Pull quotes will go here */}
-                    <blockquote className="border-l-4 border-gray-200 pl-4 py-2">
-                        <p className="text-lg italic">"[Pull quote placeholder]"</p>
-                        <footer className="text-sm text-gray-600 mt-2">— [Source]</footer>
-                    </blockquote>
-                </div>
-            </section>
+                {/* Modal/Lightbox */}
+                {selectedMedia && (
+                    <div
+                        className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 transition-opacity duration-300"
+                        onClick={handleCloseModal}
+                    >
+                        <button
+                            className="absolute top-4 right-4 text-white text-4xl hover:text-gray-300 transition-colors"
+                            onClick={handleCloseModal}
+                        >
+                            ×
+                        </button>
+                        <div
+                            className="relative max-w-7xl max-h-[90vh] w-full transform transition-transform duration-300"
+                            onClick={(e) => e.stopPropagation()}
+                        >
+                            {selectedMedia.type === 'video' ? (
+                                <video
+                                    src={selectedMedia.src}
+                                    controls
+                                    className="w-full h-full object-contain"
+                                />
+                            ) : (
+                                <img
+                                    src={selectedMedia.src}
+                                    alt="Enlarged media"
+                                    className="w-full h-full object-contain"
+                                />
+                            )}
+                        </div>
+                    </div>
+                )}
+            </div>
         </div>
     );
 } 
