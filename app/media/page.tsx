@@ -32,55 +32,102 @@ export default function Media() {
 
                 {/* Media Grid Section */}
                 <section className="mt-16">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[200px]">
-                        {/* Placeholder items - these will be replaced with actual media content */}
+                    <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
                         <div
-                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
-                            onClick={() => handleMediaClick('video', '/path/to/video1')}
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-05052025.png')}
                         >
-                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
-                                [Video Placeholder]
-                            </div>
+                            <img src="/img/media/social-05052025.png" alt="Media content" className="w-full h-auto object-contain" />
                         </div>
                         <div
-                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
-                            onClick={() => handleMediaClick('image', '/path/to/image1')}
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-05012025a.jpg')}
                         >
-                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
-                                [Image Placeholder]
-                            </div>
+                            <img src="/img/media/social-05012025a.jpg" alt="Media content" className="w-full h-auto object-contain" />
                         </div>
                         <div
-                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
-                            onClick={() => handleMediaClick('video', '/path/to/video2')}
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-04292025a.jpg')}
                         >
-                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
-                                [Video Placeholder]
-                            </div>
+                            <img src="/img/media/social-04292025a.jpg" alt="Media content" className="w-full h-auto object-contain" />
                         </div>
                         <div
-                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
-                            onClick={() => handleMediaClick('image', '/path/to/image2')}
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-04272025.jpg')}
                         >
-                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
-                                [Image Placeholder]
-                            </div>
+                            <img src="/img/media/social-04272025.jpg" alt="Media content" className="w-full h-auto object-contain" />
                         </div>
                         <div
-                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
-                            onClick={() => handleMediaClick('video', '/path/to/video3')}
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-04232025.jpg')}
                         >
-                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
-                                [Video Placeholder]
-                            </div>
+                            <img src="/img/media/social-04232025.jpg" alt="Media content" className="w-full h-auto object-contain" />
                         </div>
                         <div
-                            className="bg-[#070C17]/50 p-4 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105"
-                            onClick={() => handleMediaClick('image', '/path/to/image3')}
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-04142025b.png')}
                         >
-                            <div className="w-full h-full flex items-center justify-center text-white text-xl">
-                                [Image Placeholder]
-                            </div>
+                            <img src="/img/media/social-04142025b.png" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-04132025.png')}
+                        >
+                            <img src="/img/media/social-04132025.png" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social-38.jpg')}
+                        >
+                            <img src="/img/media/social-38.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social20.jpg')}
+                        >
+                            <img src="/img/media/social20.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social19.jpg')}
+                        >
+                            <img src="/img/media/social19.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social16.jpg')}
+                        >
+                            <img src="/img/media/social16.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social15.jpg')}
+                        >
+                            <img src="/img/media/social15.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social10.jpg')}
+                        >
+                            <img src="/img/media/social10.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/social4.jpg')}
+                        >
+                            <img src="/img/media/social4.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/apprehension-poster-concept-1.jpg')}
+                        >
+                            <img src="/img/media/apprehension-poster-concept-1.jpg" alt="Media content" className="w-full h-auto object-contain" />
+                        </div>
+                        <div
+                            className="mb-6 bg-[#070C17]/50 rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 overflow-hidden"
+                            onClick={() => handleMediaClick('image', '/img/media/apprehension-poster-concept-3.jpg')}
+                        >
+                            <img src="/img/media/apprehension-poster-concept-3.jpg" alt="Media content" className="w-full h-auto object-contain" />
                         </div>
                     </div>
                 </section>
@@ -88,7 +135,7 @@ export default function Media() {
                 {/* Modal/Lightbox */}
                 {selectedMedia && (
                     <div
-                        className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 transition-opacity duration-300"
+                        className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 pt-20 transition-opacity duration-300"
                         onClick={handleCloseModal}
                     >
                         <button
@@ -99,7 +146,6 @@ export default function Media() {
                         </button>
                         <div
                             className="relative max-w-7xl max-h-[90vh] w-full transform transition-transform duration-300"
-                            onClick={(e) => e.stopPropagation()}
                         >
                             {selectedMedia.type === 'video' ? (
                                 <video
@@ -111,7 +157,7 @@ export default function Media() {
                                 <img
                                     src={selectedMedia.src}
                                     alt="Enlarged media"
-                                    className="w-full h-full object-contain"
+                                    className="w-full max-w-full max-h-[90vh] h-auto object-contain mx-auto"
                                 />
                             )}
                         </div>
