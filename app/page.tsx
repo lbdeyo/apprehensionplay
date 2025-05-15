@@ -1,5 +1,25 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+
+function AnimatedSlideIn({ children, delay = 0 }) {
+  const [animate, setAnimate] = useState(false);
+  const ref = useRef();
+  useEffect(() => {
+    const timeout = setTimeout(() => setAnimate(true), delay * 1000);
+    return () => clearTimeout(timeout);
+  }, [delay]);
+  return (
+    <span
+      ref={ref}
+      className={animate ? "animate-slide-in-left" : "pre-slide-in"}
+      style={animate ? {} : { display: "inline-block", transform: "translateX(-100vw)" }}
+    >
+      {children}
+    </span>
+  );
+}
 
 export default function Home() {
   return (
@@ -13,20 +33,22 @@ export default function Home() {
         {/* Hero Section */}
         <section className="space-y-4 text-left">
           <div className="relative w-full max-w-max">
-            <p className="text-2xl mt-6 md:mt-14 md:text-4xl text-right text-[#BEB58F]  ml-auto" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
-              Jennymarie Jemison &emsp; Jeff Mills &emsp; Michelle Keffer
+            <p className="text-2xl mt-6 md:mt-14 md:text-4xl text-right text-[#BEB58F] ml-auto flex gap-8" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+              <AnimatedSlideIn delay={0.4}>Jennymarie Jemison</AnimatedSlideIn>
+              <AnimatedSlideIn delay={0.2}>Jeff Mills</AnimatedSlideIn>
+              <AnimatedSlideIn delay={0}>Michelle Keffer</AnimatedSlideIn>
             </p>
-            <h1 className="text-6xl md:text-9xl lg:text-9xl text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F]" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+            <h1 className="text-6xl md:text-9xl lg:text-9xl text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F] animate-fade-in" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
               Apprehension
             </h1>
-            <p className="text-2xl md:text-4xl text-white text-right ml-auto" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
-              A play
+            <p className="text-2xl md:text-4xl text-white text-right ml-auto opacity-0 animate-fade-in" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)", animationDelay: '0.6s' }}>
+              a play
             </p>
           </div>
-          <div className="w-9xl">
+          <div className="w-9xl opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}>
             <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>Nothing is real and everything is permissible.</p>
           </div>
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col md:flex-row opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
             <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
               <p className="md:my-2">
                 By L.B. Deyo

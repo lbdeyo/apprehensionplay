@@ -17,7 +17,6 @@ export default function CastCrew() {
                         <h1 className="text-6xl md:text-8xl  text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F]" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
                             Cast & Crew
                         </h1>
-
                     </div>
                     <div className="w-9xl">
                         <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>What if all we see or seem is but a dream within a dream?</p>
