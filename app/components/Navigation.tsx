@@ -12,7 +12,7 @@ export default function Navigation() {
         { name: 'About the Play', path: '/about' },
         { name: 'Cast & Crew', path: '/cast-crew' },
         { name: 'Media', path: '/media' },
-        { name: 'Press Kit', path: '/press-kit' },
+        // { name: 'Press Kit', path: '/press-kit' },
     ];
 
     return (

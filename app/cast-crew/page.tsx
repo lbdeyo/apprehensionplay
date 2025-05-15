@@ -1,29 +1,70 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function CastCrew() {
     return (
-        <div className="space-y-8">
-            <h1 className="text-4xl">Cast & Crew</h1>
+        <div className="relative w-full min-h-screen">
+            {/* Full-bleed background image */}
+            <div className="absolute inset-0 w-full h-full bg-repeat bg-top z-0" style={{ backgroundImage: 'url(/img/cast-crew-bg.jpg)', backgroundSize: 'auto' }} />
+            {/* Overlay */}
+            <div className="absolute inset-0 w-full h-full bg-[#070C17]/15 z-10" />
+            {/* Constrained content */}
+            <div className="relative z-20 w-full max-w-7xl mx-auto space-y-12 pt-20 pb-16 text-left px-4 sm:px-6 lg:px-8">
+                {/* Hero Section */}
+                <section className="space-y-4 text-left">
+                    <div className="relative w-full max-w-max">
 
-            <section className="space-y-6">
-                <h2 className="text-2xl">Cast</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* Cast member cards will go here */}
-                    <div className="border rounded-lg p-4">
-                        <h3 className="text-xl">[Cast Member Name]</h3>
-                        <p className="text-gray-600">[Character Name]</p>
-                    </div>
-                </div>
-            </section>
+                        <h1 className="text-6xl md:text-8xl  text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F]" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+                            Cast & Crew
+                        </h1>
 
-            <section className="space-y-6">
-                <h2 className="text-2xl">Creative Team</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* Crew member cards will go here */}
-                    <div className="border rounded-lg p-4">
-                        <h3 className="text-xl">[Crew Member Name]</h3>
-                        <p className="text-gray-600">[Role]</p>
                     </div>
-                </div>
-            </section>
+                    <div className="w-9xl">
+                        <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>What if all we see or seem is but a dream within a dream?</p>
+                    </div>
+
+
+                </section>
+
+                {/* Masonry Cast & Crew Grid */}
+                <section className="mt-12">
+                    <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
+                        <div className="mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Jennymarie Jemison, "Ava"</h2>
+                            <img src="/img/castandcrew/jennymarie.jpeg" alt="Jennymarie Jemison" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left">Jennymarie's last theatrical appearance was in The Hidden Room's <i>The Rover</i> in 2019, but she has remained active in the world of independent film. Recent credits include <i>Wüm</i>, which premiered at the 2023 SXSW film festival, and she portrayed Texas suffragist Minnie Fisher Cunningham in the PBS documentary <i>Citizens at Last</i>. She is known for her creative direction & graphic design, which is currently on display at Austin Bergstrom international airport's South Terminal, as well as her vibrant & influential gardening endeavor, Joy Max Garden. Her short film <i>Quiet Girl's Guide to Violence</i>, premiered at Fantastic Fest in 2012 & made history as the first narrative film on the Steam network. When not on stage or screen, you Jenny can be found in her garden, regularly documented through her well-followed & popular @jmjgrows IG account.</p>
+                        </div>
+                        <div className="mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Jeff Mills, "Dr. Wozis"</h2>
+                            <img src="/img/castandcrew/mills.jpeg" alt="Jeff Mills" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left mb-2">Jeff Mills is an award-winning theater artist who has rambled across the Austin theatre scene for the last 25 years. He has worked with the Rude Mechs, SVT, Physical Plant, Fusebox, Zach Scott, Refraction Arts, the Siti Company and many more. Out of St Edwards, he cut his teeth in the improv/sketch scene as a founding member of Fatbuckle & Think Tank, moved to NYC to work with the Muppets, and then returned to Austin as a producer, director, actor and sound designer. Notable credits include <i>The Assumption, Fixing King John, Roe, Everything is Established, Three, Spacestation1985, Fixing Troilus and Cressida,</i> and <i>Hotel Vanya</i>. In 2018, Jeff received the distinguished John Bustin Award for Conspicuous Versatility from the Austin Critics Table.</p>
+                        </div>
+                        <div className="mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Michelle Keffer, "Charlotte"</h2>
+                            <img src="/img/castandcrew/michelle-keffer.jpg" alt="Michelle Keffer" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left mb-2">Michelle is an actor, emcee, producer and writer that has been performing on various Austin stages for 20 years. Before her decade-long hiatus from traditional theatre, she worked with Hyde Park Theatre, Paper Chairs, Breaking String and Pollyanna Theatre Company, among others. She was a producer, writer and actor in the variety/sketch comedy show <i>Industry Night</i>, and is currently the emcee and co-producer of Natalie George Productions' Cabaret.</p>
+                        </div>
+                        <div className="mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">L.B. Deyo, playwright</h2>
+                            <img src="/img/castandcrew/lb-pipe-cropped.jpg" alt="L.B. Deyo" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left">L.B. Deyo is the author of <i>Invisible Frontier: Exploring the tunnels, ruins & rooftops of hidden New York</i> and several other books. He's acted in such Austin plays as <i>The Intergalactic Nemesis</i> and <i>Dance, Cupcake, Dance</i>. <i>Apprehension</i> is his first work as a playwright.</p>
+                        </div>
+                        {/* Example Cast/Crew Member 2 */}
+                        <div className="mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Christopher Shea, producer</h2>
+                            <img src="/img/castandcrew/shea.jpg" alt="Christopher Shea" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left"> Christopher Shea is a multifaceted producer/director in the world of independent film, theater, and television. His impressive roster of projects includes acclaimed films such as <i>Lousy Carter</i>, which premiered at the Locarno Film Festival, the acclaimed Rooster Teeth web series <i>Arizona Circle</i>, and the PBS documentary series about stand up comedy in Austin, Texas called <i>Stand Up Empire</i>. As a producer and director based in Austin, Texas, Chris has helmed productions for Netflix, Apple TV, Discovery, A&E, and TLC. Chris' theatrical work has recently been for the Alchemy Theater, and includes <i>Good People</i>, <i>A Christmas Memory</i>, <i>Mack & Mabel</i>, <i>The Virgin Trial</i>, and most recently the critically acclaimed <i>Pipeline</i>.</p>
+                        </div>
+                        {/* Example Cast/Crew Member 3 */}
+                        <div className="mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Sonnet Blanton, director</h2>
+                            <img src="/img/castandcrew/sonnet.jpg" alt="Michelle Keffer" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left">Sonnet Blanton is an award-winning theatre artist living in Austin, Texas. In her 20-plus year career here as a director, producer, writer, and performer she has worked with Salvage Vanguard Theater, Paper Chairs, Scriptworks, Glass Half Full Theatre, Fusebox Festival, Ariel Dance Theatre, and Grackle Jack.</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
         </div>
     );
 } 
