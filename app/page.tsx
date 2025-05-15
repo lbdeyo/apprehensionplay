@@ -1,18 +1,16 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
-function AnimatedSlideIn({ children, delay = 0 }) {
+function AnimatedSlideIn({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const [animate, setAnimate] = useState(false);
-  const ref = useRef();
   useEffect(() => {
     const timeout = setTimeout(() => setAnimate(true), delay * 1000);
     return () => clearTimeout(timeout);
   }, [delay]);
   return (
     <span
-      ref={ref}
       className={animate ? "animate-slide-in-left" : "pre-slide-in"}
       style={animate ? {} : { display: "inline-block", transform: "translateX(-100vw)" }}
     >
