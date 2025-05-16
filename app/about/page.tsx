@@ -40,7 +40,7 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-                <div className="max-w-[50%] p-5 bg-[#a7a082] text-black text-lg"><h1 className="text-2xl">ACKNOWLEDGMENT OF PSYCHOLOGICAL RISK AND WAIVER OF LIABILITY</h1>
+                <div className="w-full md:max-w-[50%] p-5 bg-[#a7a082] text-black text-lg"><h1 className="text-2xl">ACKNOWLEDGMENT OF PSYCHOLOGICAL RISK AND WAIVER OF LIABILITY</h1>
 
                     <p>By accessing, viewing, engaging with, or otherwise exposing oneself to any portion of the website, marketing materials, script excerpts, media assets, or live performances related to the theatrical production <i>Apprehension</i> (hereinafter “the Work”), the undersigned (hereinafter “the Participant”) hereby affirms, acknowledges, and agrees to the following:</p>
                     <ol className="list-decimal list-inside">
