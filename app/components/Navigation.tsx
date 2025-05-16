@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
 export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,17 +37,39 @@ export default function Navigation() {
                         </div>
                     </div>
 
-                    {/* Desktop menu */}
-                    <div className="hidden sm:flex sm:items-center">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.path}
-                                href={item.path}
-                                className="px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
+                    {/* Social icons + nav links grouped together (desktop) */}
+                    <div className="hidden sm:flex sm:items-center gap-8">
+                        {/* Social icons */}
+                        <div className="flex items-center gap-3">
+                            <a
+                                href="https://www.facebook.com/profile.php?id=61573063615073"
+                                rel="noopener noreferrer"
+                                aria-label="Facebook"
+                                className="text-[#f5e7c5] hover:text-white transition-colors"
                             >
-                                {item.name}
-                            </Link>
-                        ))}
+                                <FaFacebook size={28} className="drop-shadow-lg" />
+                            </a>
+                            <a
+                                href="https://www.instagram.com/apprehension3/"
+                                rel="noopener noreferrer"
+                                aria-label="Instagram"
+                                className="text-[#f5e7c5] hover:text-white transition-colors"
+                            >
+                                <FaInstagram size={28} className="drop-shadow-lg" />
+                            </a>
+                        </div>
+                        {/* Nav links */}
+                        <div className="flex items-center gap-8 ml-6">
+                            {navItems.map((item) => (
+                                <Link
+                                    key={item.path}
+                                    href={item.path}
+                                    className="px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
+                                >
+                                    {item.name}
+                                </Link>
+                            ))}
+                        </div>
                     </div>
 
                     {/* Mobile menu button */}
@@ -73,6 +96,25 @@ export default function Navigation() {
             {/* Mobile menu */}
             {isMenuOpen && (
                 <div className="sm:hidden">
+                    {/* Social icons for mobile */}
+                    <div className="flex justify-start gap-4 mb-4 mt-6 pl-4">
+                        <a
+                            href="https://www.facebook.com/profile.php?id=61573063615073"
+                            rel="noopener noreferrer"
+                            aria-label="Facebook"
+                            className="text-[#f5e7c5] hover:text-white transition-colors"
+                        >
+                            <FaFacebook size={28} className="drop-shadow-lg" />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/apprehension3/"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram"
+                            className="text-[#f5e7c5] hover:text-white transition-colors"
+                        >
+                            <FaInstagram size={28} className="drop-shadow-lg" />
+                        </a>
+                    </div>
                     <div className="pt-2 pb-3 space-y-1">
                         {navItems.map((item) => (
                             <Link
