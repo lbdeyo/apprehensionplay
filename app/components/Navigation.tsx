@@ -10,7 +10,8 @@ export default function Navigation() {
 
     const navItems = [
         { name: 'Home', path: '/' },
-        { name: 'About the Play', path: '/about' },
+        { name: 'About', path: '/about' },
+        { name: 'Contact', path: '/contact' },
         { name: 'Cast & Crew', path: '/cast-crew' },
         { name: 'Media', path: '/media' },
         // { name: 'Press Kit', path: '/press-kit' },
