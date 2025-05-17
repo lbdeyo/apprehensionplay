@@ -16,7 +16,7 @@ export default function About() {
                         </h1>
                     </div>
                     <div className="flex flex-col md:flex-row">
-                        <div className="p-5 border-r border-t border-[#BEB58F] md:max-w-[50%] text-white text-2xl md:text-3xl mb-0" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+                        <div className="p-5 border-r border-t border-[#BEB58F] md:max-w-[70%] text-white text-2xl md:text-3xl mb-0" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
                             <p className="md:my-2">
                                 <i>Apprehension</i> is a psychological thriller set in a world where the past falters, reality shifts, and the truth is shrouded in deceit. Joe Dempsey struggles to piece together his past, haunted by fragments just beyond recall.
                             </p>
