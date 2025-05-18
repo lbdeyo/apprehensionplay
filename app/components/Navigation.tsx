@@ -11,9 +11,9 @@ export default function Navigation() {
     const navItems = [
         { name: 'Home', path: '/' },
         { name: 'About', path: '/about' },
-        { name: 'Contact', path: '/contact' },
+        { name: 'Images/Videos', path: '/media' },
         { name: 'Cast & Crew', path: '/cast-crew' },
-        { name: 'Media', path: '/media' },
+        { name: 'Contact', path: '/contact' },
         // { name: 'Press Kit', path: '/press-kit' },
     ];
 
