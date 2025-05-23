@@ -21,6 +21,7 @@ export default function Navigation() {
         <nav className="fixed top-0 left-0 w-full bg-[#a8a07e] shadow-[0_4px_8px_-1px_rgba(0,0,0,0.3),0_2px_6px_-1px_rgba(0,0,0,0.2)] z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20 items-center">
+                    {/* Logo */}
                     <div className="flex">
                         <div className="flex-shrink-0 flex items-center">
                             <Link href="/" className="inline-flex items-center" aria-label="Home">
@@ -38,10 +39,22 @@ export default function Navigation() {
                         </div>
                     </div>
 
-                    {/* Social icons + nav links grouped together (desktop) */}
-                    <div className="hidden sm:flex sm:items-center gap-8">
+                    {/* Desktop Navigation */}
+                    <div className="hidden sm:flex sm:items-center">
+                        {/* Nav links */}
+                        <div className="flex items-center gap-8">
+                            {navItems.map((item) => (
+                                <Link
+                                    key={item.path}
+                                    href={item.path}
+                                    className="px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
+                                >
+                                    {item.name}
+                                </Link>
+                            ))}
+                        </div>
                         {/* Social icons */}
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-3 ml-8">
                             <a
                                 href="https://www.facebook.com/profile.php?id=61573063615073"
                                 rel="noopener noreferrer"
@@ -58,18 +71,6 @@ export default function Navigation() {
                             >
                                 <FaInstagram size={28} className="drop-shadow-lg" />
                             </a>
-                        </div>
-                        {/* Nav links */}
-                        <div className="flex items-center gap-8 ml-6">
-                            {navItems.map((item) => (
-                                <Link
-                                    key={item.path}
-                                    href={item.path}
-                                    className="px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
-                                >
-                                    {item.name}
-                                </Link>
-                            ))}
                         </div>
                     </div>
 
