@@ -31,7 +31,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="space-y-4 text-left">
           <div className="relative w-full max-w-max">
-            <p className="text-2xl mt-6 md:mt-14 md:text-4xl text-right text-[#BEB58F] ml-auto flex gap-8" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
+            <p className="text-2xl mt-6 md:mt-14 md:text-4xl text-right text-[#BEB58F] ml-auto flex gap-8 hidden" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
               <AnimatedSlideIn delay={0.4}>Jennymarie Jemison</AnimatedSlideIn>
               <AnimatedSlideIn delay={0.2}>Jeff Mills</AnimatedSlideIn>
               <AnimatedSlideIn delay={0}>Michelle Keffer</AnimatedSlideIn>
@@ -40,7 +40,7 @@ export default function Home() {
               Apprehension
             </h1>
             <p className="text-2xl md:text-4xl text-white text-right ml-auto opacity-0 animate-fade-in" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)", animationDelay: '0.6s' }}>
-              a play
+              A play by L.B. Deyo
             </p>
           </div>
           <div className="w-9xl opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}>
@@ -48,9 +48,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:flex-row opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
             <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
-              <p className="md:my-2">
-                By L.B. Deyo
-              </p>
+
               <p className="md:my-2">
                 Directed by Sonnet Blanton
               </p>
