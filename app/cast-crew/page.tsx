@@ -5,7 +5,7 @@ export default function CastCrew() {
     return (
         <div className="relative w-full min-h-screen">
             {/* Full-bleed background image */}
-            <div className="absolute inset-0 w-full h-full bg-repeat bg-top z-0" style={{ backgroundImage: 'url(/img/cast-crew-bg.jpg)', backgroundSize: 'auto' }} />
+            <div className="absolute inset-0 w-full h-full bg-cover bg-top z-0" style={{ backgroundImage: 'url(/img/apprehension-poster-concept-4.jpg)', backgroundSize: 'cover' }} />
             {/* Overlay */}
             <div className="absolute inset-0 w-full h-full bg-[#070C17]/15 z-10" />
             {/* Constrained content */}
@@ -19,7 +19,7 @@ export default function CastCrew() {
                         </h1>
                     </div>
                     <div className="w-9xl">
-                        <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>What if all we see or seem is but a dream within a dream?</p>
+                        <p className="text-[#B1A886] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>What if all we see or seem is but a dream within a dream?</p>
                     </div>
 
 
