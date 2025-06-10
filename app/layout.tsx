@@ -5,6 +5,24 @@ import Navigation from "./components/Navigation";
 export const metadata: Metadata = {
   title: "Apprehension Play",
   description: "Official website for the play Apprehension",
+  openGraph: {
+    title: "Apprehension Play",
+    description: "Official website for the play Apprehension",
+    images: [
+      {
+        url: '/meta-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Apprehension Play',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Apprehension Play",
+    description: "Official website for the play Apprehension",
+    images: ['/meta-image.jpg'],
+  },
 };
 
 export default function RootLayout({
