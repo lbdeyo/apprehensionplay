@@ -77,7 +77,7 @@ export default function Media() {
     return (
         <div className="relative w-full min-h-screen">
             {/* Full-bleed background image */}
-            <div className="absolute inset-0 w-full h-full bg-cover bg-top bg-no-repeat z-0" style={{ backgroundImage: 'url(/img/apprehension-poster-concept-bg.jpg)' }} />
+            <div className="absolute inset-0 w-full h-full bg-contain bg-top bg-no-repeat z-0" style={{ backgroundImage: 'url(/img/poster-concept-5.jpg)' }} />
             {/* Overlay */}
             <div className="absolute inset-0 w-full h-full bg-[#070C17]/15 z-10" />
             {/* Constrained content */}
