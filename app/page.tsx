@@ -60,7 +60,7 @@ export default function Home() {
             <div className="p-5  border-b border-dashed border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
 
               <p className="md:my-2">
-                Oct. 9-Nov. 1, Thurs-Sat, 7:30pm
+                Oct. 9-Nov. 1, Thurs-Sat, 8:00 pm
               </p>
               <p className="md:my-2">
                 Hyde Park Theatre, Austin, Texas
