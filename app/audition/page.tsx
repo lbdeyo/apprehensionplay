@@ -20,15 +20,17 @@ export default function Audition() {
                             <p className="md:my-2">
                                 <i>Apprehension</i>, a play running weekends (Thurs-Sat) from October 9th until November 1st, is looking for actors to join the cast.
                             </p>
-                            <p className="md:my-2">
-                                Auditions to be held:<br></br>
-                                Friday, June 20, 2025 | 2:30 PM - 5:30 PM<br></br>
-                                Saturday, June 21, 2025 | 3:00 PM - 6:00 PM
-                            </p>
-                            <p className="md:my-2">
-                                Carol Hickey Acting Studio<br></br>
-                                979 Springdale Rd, Suite 114, Austin, TX 78702
-                            </p>
+                            <div className="p-5 m-4 border-[#BEB58F] border-1">
+                                <p className="md:my-2">
+                                    Auditions to be held:<br></br>
+                                    Friday, June 20, 2025 | 2:30 PM - 5:30 PM<br></br>
+                                    Saturday, June 21, 2025 | 3:00 PM - 6:00 PM
+                                </p>
+                                <p className="md:my-2">
+                                    Carol Hickey Acting Studio<br></br>
+                                    979 Springdale Rd, Suite 114, Austin, TX 78702
+                                </p>
+                            </div>
                             <p className="md:my-2">
                                 <strong>Please bring a headshot and resume.</strong>
                             </p>
