@@ -21,12 +21,13 @@ export default function Audition() {
                                 <i>Apprehension</i>, a play running weekends (Thurs-Sat) from October 9th until November 1st, is looking for actors to join the cast.
                             </p>
                             <p className="md:my-2">
+                                Auditions to be held:<br></br>
                                 Friday, June 20, 2025 | 2:30 PM - 5:30 PM<br></br>
                                 Saturday, June 21, 2025 | 3:00 PM - 6:00 PM
                             </p>
                             <p className="md:my-2">
                                 Carol Hickey Acting Studio<br></br>
-                                130 Pedernales St., No. 318B, Austin, TX 78702
+                                979 Springdale Rd, Suite 114, Austin, TX 78702
                             </p>
                             <p className="md:my-2">
                                 <strong>Please bring a headshot and resume.</strong>
@@ -44,7 +45,7 @@ export default function Audition() {
                             <p>Rehearsals begin September 2025. (PAID)</p>
                         </li>
                         <li>
-                            <p>Performances run October 9 – November 1, 2025 at Hyde Park Theatre, Austin, TX. (PAID)</p>
+                            <p>Performances run October 9-November 1, 2025 at Hyde Park Theatre, Austin, TX. (PAID)</p>
                         </li>
                         <li>
                             <p>Apprehension is an original work premiering in Austin this fall — we’re seeking bold, emotionally intuitive performers ready to dive into complex characters and layered storytelling.</p>
