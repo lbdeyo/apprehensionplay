@@ -62,8 +62,8 @@ export default function Audition() {
                     </div>
                 </section>
 
-                <div className="w-full md:max-w-[70%] p-5 bg-[#a7a082] text-black text-lg">
-                    <h1 className="text-3xl">Casting  these roles:</h1>
+                <div className="w-full md:max-w-[70%] p-10  bg-[#a7a082] text-black text-xl">
+                    <h1 className="text-3xl"><strong>Casting these roles:</strong></h1>
 
                     <ol className="list-decimal p-3 ">
                         <li><strong>Katie</strong> (15-19, Caucasian, Female)
@@ -73,7 +73,7 @@ export default function Audition() {
                             <p>Joe and Ava's friend. Married to Lisa. Blunt and appears supportive.</p></li>
                         <li><strong>Lisa</strong> (38-47, Any Ethnicity/female)
                             <p>Joe and Ava's friend. Married to Charles. Outspoken and sometimes sarcastic</p></li>
-                        <li><strong>Woman</strong>(30s-50s, Any Ethnicity/female)
+                        <li><strong>Woman</strong> (30s-50s, Any Ethnicity/female)
                             <p>A mysterious figure whose mood changes from trancelike to explosive and accusatory.</p></li>
 
                     </ol>
