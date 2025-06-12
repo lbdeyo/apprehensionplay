@@ -18,7 +18,7 @@ export default function Audition() {
                     <div className="flex flex-col md:flex-row">
                         <div className="p-5  border-t border-[#BEB58F] md:max-w-[70%] text-white text-2xl md:text-3xl mb-0" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
                             <p className="md:my-2">
-                                <i>Apprehension</i>, a play running weekends (Thurs-Sat) from October 9th until November 1st, is looking for actors to join the cast.
+                                <i>Apprehension</i>, a play running weekends (Thurs-Sat) from October 9th until November 1st, is looking for actors to join its cast.
                             </p>
                             <div className="p-5 m-4 border-[#BEB58F] border-1">
                                 <p className="md:my-2">
@@ -78,7 +78,8 @@ export default function Audition() {
 
                     </ol>
                 </div>
-                <div className="w-full md:max-w-[70%] p-10 bg-[#cccccc] text-black text-2xl">In Apprehension, Joe's seemingly ordinary mid-life crisis gives way to a surreal unraveling of memory and reality. As he slips further into doubt and dread, those closest to him become entangled in something far more disturbing than personal confusion. A cerebral mystery with emotional and psychological weight.</div>
+                <div className="w-full md:max-w-[70%] p-10 bg-[#cccccc] text-black text-2xl">
+                    <p><strong>About the play: </strong>In <em>Apprehension</em>, Joe's seemingly ordinary mid-life crisis gives way to a surreal unraveling of memory and reality. As he slips further into doubt and dread, those closest to him become entangled in something far more disturbing than personal confusion. A cerebral mystery with emotional and psychological weight.</p></div>
             </div>
         </div >
     );
