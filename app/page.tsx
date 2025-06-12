@@ -72,6 +72,23 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <div className="md:max-w-[50%] mt-10 border border-white border-2 flex flex-col shadow-lg">
+            {/* First row: Danger symbol and warning */}
+            <div className="flex flex-row">
+              <div className="border-r-2 border-black p-2 flex items-center ">
+                <Image src="/img/danger-symbol.svg" alt="danger" width={100} height={100} />
+              </div>
+              <div className="text-white p-4 ps-5 flex-1 flex items-center bg-[#a7a082]/80">
+                <p className=" text-4xl  text-black"> WARNING: Risk of Heart Attack, Shock, Death</p>
+              </div>
+            </div>
+            {/* Second row: Additional text */}
+            <div className=" p-4 text-black text-lg border-t-2 border-black bg-[#a7a082]/80">
+              <p className="text-xl  text-black">
+                <i>Apprehension</i> contains extremely disturbing themes and depicts horrifying events. The viewer is advised to proceed with caution. Consult your physician before attending.
+              </p>
+            </div>
+          </div>
 
 
         </section>

@@ -23,23 +23,7 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-                <div className="md:max-w-[50%] border border-white flex flex-col shadow-lg">
-                    {/* First row: Danger symbol and warning */}
-                    <div className="flex flex-row">
-                        <div className="border-r-2 border-white p-2 flex items-center ">
-                            <Image src="/img/danger-symbol.svg" alt="danger" width={100} height={100} />
-                        </div>
-                        <div className="text-white p-4 ps-5 flex-1 flex items-center bg-[#a7a082]/50">
-                            <p className=" text-4xl text-shadow-lg"> WARNING: Risk of Heart Attack, Shock, Death</p>
-                        </div>
-                    </div>
-                    {/* Second row: Additional text */}
-                    <div className=" p-4 text-black text-lg border-t-2 border-white bg-[#a7a082]/50">
-                        <p className="text-xl text-white text-shadow-lg">
-                            <i>Apprehension</i> contains extremely disturbing themes and depicts horrifying events. The viewer is advised to proceed with caution. Consult your physician before attending.
-                        </p>
-                    </div>
-                </div>
+
                 <div className="w-full md:max-w-[50%] p-5 bg-[#a7a082] text-black text-lg"><h1 className="text-2xl">ACKNOWLEDGMENT OF PSYCHOLOGICAL RISK AND WAIVER OF LIABILITY</h1>
 
                     <p>By accessing, viewing, engaging with, or otherwise exposing oneself to any portion of the website, marketing materials, script excerpts, media assets, or live performances related to the theatrical production <i>Apprehension</i> (hereinafter “the Work”), the undersigned (hereinafter “the Participant”) hereby affirms, acknowledges, and agrees to the following:</p>
