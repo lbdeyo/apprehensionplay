@@ -51,7 +51,7 @@ export default function Audition() {
                                 <p>Performances run October 9-November 1, 2025 at Hyde Park Theatre, Austin, TX. (PAID)</p>
                             </li>
                             <li>
-                                <p>Apprehension is an original work premiering in Austin this fall — we’re seeking bold, emotionally intuitive performers ready to dive into complex characters and layered storytelling.</p>
+                                <p>Apprehension is an original work premiering in Austin this fall — we're seeking bold, emotionally intuitive performers ready to dive into complex characters and layered storytelling.</p>
                             </li>
 
 
@@ -65,7 +65,7 @@ export default function Audition() {
                 <div className="w-full md:max-w-[70%] p-10  bg-[#a7a082] text-black text-xl">
                     <h1 className="text-3xl"><strong>Casting these roles:</strong></h1>
 
-                    <ol className="list-decimal p-3 ">
+                    <ol className="list-decimal p-3 text-2xl ">
                         <li><strong>Katie</strong> (15-19, Caucasian, Female)
                             <p>Joe and Ava's teenage daughter. Intelligent, compassionate, and perceptive beyond her years.
                             </p></li>
@@ -79,7 +79,7 @@ export default function Audition() {
                     </ol>
                 </div>
                 <div className="w-full md:max-w-[70%] p-10 bg-[#cccccc] text-black text-2xl">
-                    <p><strong>About the play: </strong>In <em>Apprehension</em>, Joe's seemingly ordinary mid-life crisis gives way to a surreal unraveling of memory and reality. As he slips further into doubt and dread, those closest to him become entangled in something far more disturbing than personal confusion. A cerebral mystery with emotional and psychological weight.</p></div>
+                    <p><strong>About the play: </strong>In <em>Apprehension</em>, a depressed man struggles with despair, paranoia, and memory lapses - until he discovers a truth more terrifying than madness.</p></div>
             </div>
         </div >
     );
