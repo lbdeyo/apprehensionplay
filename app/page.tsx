@@ -72,7 +72,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="md:max-w-[50%] mt-10 border border-white border-2 flex flex-col shadow-lg">
+          <div className="md:max-w-[50%] mt-10 border border-white border-2 flex flex-col shadow-lg opacity-0 animate-fade-in">
             {/* First row: Danger symbol and warning */}
             <div className="flex flex-row">
               <div className="border-r-2 border-black p-2 flex items-center ">
