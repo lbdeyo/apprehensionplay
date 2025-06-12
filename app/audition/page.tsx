@@ -38,26 +38,28 @@ export default function Audition() {
                         </div>
 
                     </div>
-                    <h3 className="text-3xl">Audition details</h3>
-                    <ul className="list-disc ml-4 p-3 text-2xl ">
-                        <li>
-                            <p>Auditions will consist of cold readings from the script. Sides will be provided on site.
-                            </p></li>
-                        <li>
-                            <p>Rehearsals begin September 2025. (PAID)</p>
-                        </li>
-                        <li>
-                            <p>Performances run October 9-November 1, 2025 at Hyde Park Theatre, Austin, TX. (PAID)</p>
-                        </li>
-                        <li>
-                            <p>Apprehension is an original work premiering in Austin this fall — we’re seeking bold, emotionally intuitive performers ready to dive into complex characters and layered storytelling.</p>
-                        </li>
+                    <div className="md:max-w-[70%] md:ps-5">
+                        <h3 className="text-3xl">Audition details</h3>
+                        <ul className="list-disc ml-4 p-3 text-2xl ">
+                            <li>
+                                <p>Auditions will consist of cold readings from the script. Sides will be provided on site.
+                                </p></li>
+                            <li>
+                                <p>Rehearsals begin September 2025. (PAID)</p>
+                            </li>
+                            <li>
+                                <p>Performances run October 9-November 1, 2025 at Hyde Park Theatre, Austin, TX. (PAID)</p>
+                            </li>
+                            <li>
+                                <p>Apprehension is an original work premiering in Austin this fall — we’re seeking bold, emotionally intuitive performers ready to dive into complex characters and layered storytelling.</p>
+                            </li>
 
 
-                    </ul>
-                    <p className="text-3xl">To reserve an audition slot or for questions, email:
-                        <a href="mailto:Apprehension2025@gmail.com" className="text-blue-500"> Apprehension2025@gmail.com</a>
-                        .</p>
+                        </ul>
+                        <p className="text-2xl md:text-3xl">To reserve an audition slot or for questions, email:
+                            <a href="mailto:Apprehension2025@gmail.com" className="text-blue-500"> Apprehension2025@gmail.com</a>
+                            .</p>
+                    </div>
                 </section>
 
                 <div className="w-full md:max-w-[70%] p-5 bg-[#a7a082] text-black text-lg">
