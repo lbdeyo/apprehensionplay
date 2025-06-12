@@ -78,7 +78,7 @@ export default function Audition() {
 
                     </ol>
                 </div>
-                <div className="w-full md:max-w-[70%] p-5 bg-[#cccccc] text-black text-2xl">In Apprehension, Joe's seemingly ordinary mid-life crisis gives way to a surreal unraveling of memory and reality. As he slips further into doubt and dread, those closest to him become entangled in something far more disturbing than personal confusion. A cerebral mystery with emotional and psychological weight.</div>
+                <div className="w-full md:max-w-[70%] p-10 bg-[#cccccc] text-black text-2xl">In Apprehension, Joe's seemingly ordinary mid-life crisis gives way to a surreal unraveling of memory and reality. As he slips further into doubt and dread, those closest to him become entangled in something far more disturbing than personal confusion. A cerebral mystery with emotional and psychological weight.</div>
             </div>
         </div >
     );
