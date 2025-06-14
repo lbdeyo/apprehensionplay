@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Audition() {
     return (
-        <div className="relative w-full min-h-screen">
+        <div className="relative w-full min-h-screen bg-black">
             {/* Full-bleed background image */}
             <div />
             {/* Overlay */}
