@@ -23,7 +23,11 @@ export default function Home() {
   return (
     <div className="relative w-full min-h-screen">
       {/* Full-bleed background image */}
-      <div className="absolute inset-0 w-full h-full bg-cover bg-top bg-no-repeat z-0" style={{ backgroundImage: 'url(/img/apprehension-bg-red.jpg)' }} />
+      <div className="absolute inset-0 w-full h-full z-0">
+        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover">
+          <source src="/vid/homepage-bg-vid.mp4" type="video/mp4" />
+        </video>
+      </div>
       {/* Overlay */}
       <div className="absolute inset-0 w-full h-full bg-[#070C17]/15 z-10" />
       {/* Constrained content */}
