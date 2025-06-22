@@ -14,7 +14,7 @@ export default function Navigation() {
         { name: 'Images/Videos', path: '/media' },
         { name: 'Cast & Crew', path: '/cast-crew' },
         { name: 'Contact', path: '/contact' },
-        { name: 'Audition', path: '/audition' },
+
     ];
 
     return (

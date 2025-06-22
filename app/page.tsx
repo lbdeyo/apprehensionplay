@@ -50,11 +50,7 @@ export default function Home() {
           <div className="w-9xl opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}>
             <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>Nothing is real and everything is permissible.</p>
           </div>
-          <div className="m-4 p-5 border-l-10 opacity-0 animate-fade-in " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)", animationDelay: '0.6s' }}>
-            <p className="text-2xl md:text-3xl text-white ml-auto " >
-              Announcing auditions for multiple roles June 20-21st. <a href="/audition" className="underline underline-offset-6"> Learn more</a>.
-            </p>
-          </div>
+
           <div className="flex flex-col md:flex-row opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
             <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
 
