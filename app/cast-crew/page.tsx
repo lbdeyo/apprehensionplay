@@ -19,7 +19,7 @@ export default function CastCrew() {
                         </h1>
                     </div>
                     <div className="w-9xl">
-                        <p className="text-[#B1A886] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>What if all we see or seem is but a dream within a dream?</p>
+                        <p className="text-[#B1A886] text-2xl md:text-7xl rotate-180 select-none" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>What if all we see or seem is but a dream within a dream?</p>
                     </div>
 
 

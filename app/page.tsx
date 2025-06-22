@@ -48,7 +48,7 @@ export default function Home() {
             </p>
           </div>
           <div className="w-9xl opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}>
-            <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>Nothing is real and everything is permissible.</p>
+            <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180 select-none" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>Nothing is real and everything is permissible.</p>
           </div>
 
           <div className="flex flex-col md:flex-row opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
