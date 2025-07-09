@@ -55,6 +55,7 @@ export default function Media() {
         }
     };
 
+
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (selectedMedia) {

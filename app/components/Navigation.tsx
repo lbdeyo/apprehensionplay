@@ -27,11 +27,15 @@ export default function Navigation() {
                             <Link href="/" className="inline-flex items-center" aria-label="Home">
                                 <div className="transition-transform duration-200 hover:scale-115">
                                     <Image
-                                        src="/img/logo.png"
+                                        src="/img/apprehension-logo-red.svg"
                                         alt="Apprehension Play logo"
                                         width={340}
                                         height={97}
-                                        style={{ height: '97px', width: 'auto' }}
+                                        style={{
+                                            height: '70px',
+                                            width: 'auto',
+                                            filter: 'brightness(0) saturate(100%) invert(14%) sepia(75%) saturate(4797%) hue-rotate(355deg) brightness(89%) contrast(115%)'
+                                        }}
                                         priority
                                     />
                                 </div>
