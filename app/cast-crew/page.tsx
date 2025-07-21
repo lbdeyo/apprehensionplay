@@ -38,6 +38,8 @@ export default function CastCrew() {
                             <img src="/img/castandcrew/mills.jpeg" alt="Jeff Mills" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
                             <p className="text-[#cdc49b] text-lg text-left mb-2">Jeff Mills is an award-winning theater artist who has rambled across the Austin theatre scene for the last 25 years. He has worked with the Rude Mechs, SVT, Physical Plant, Fusebox, Zach Scott, Refraction Arts, the Siti Company and many more. Out of St Edwards, he cut his teeth in the improv/sketch scene as a founding member of Fatbuckle & Think Tank, moved to NYC to work with the Muppets, and then returned to Austin as a producer, director, actor and sound designer. Notable credits include <i>The Assumption, Fixing King John, Roe, Everything is Established, Three, Spacestation1985, Fixing Troilus and Cressida,</i> and <i>Hotel Vanya</i>. In 2018, Jeff received the distinguished John Bustin Award for Conspicuous Versatility from the Austin Critics Table.</p>
                         </div>
+
+
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Brent Werzner, "Joe"</h2>
                             <img src="/img/castandcrew/werzner-pic.jpg" alt="Jennymarie Jemison" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
@@ -55,7 +57,12 @@ export default function CastCrew() {
                             <img src="/img/castandcrew/shea.jpg" alt="Christopher Shea" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
                             <p className="text-[#cdc49b] text-lg text-left"> Christopher Shea is a multifaceted producer/director in the world of independent film, theater, and television. His impressive roster of projects includes acclaimed films such as <i>Lousy Carter</i>, which premiered at the Locarno Film Festival, the acclaimed Rooster Teeth web series <i>Arizona Circle</i>, and the PBS documentary series about stand up comedy in Austin, Texas called <i>Stand Up Empire</i>. As a producer and director based in Austin, Texas, Chris has helmed productions for Netflix, Apple TV, Discovery, A&E, and TLC. Chris' theatrical work has recently been for the Alchemy Theater, and includes <i>Good People</i>, <i>A Christmas Memory</i>, <i>Mack & Mabel</i>, <i>The Virgin Trial</i>, and most recently the critically acclaimed <i>Pipeline</i>.</p>
                         </div>
-                        {/* Example Cast/Crew Member 3 */}
+                        <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Erica Heidepriem, "Lisa"</h2>
+                            <img src="/img/castandcrew/erica-portrait.jpg" alt="Erica Heidepriem" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left mb-2">Erica Heidepriem is an actor, writer, and creative collaborateur based in Austin, Texas, known for her vibrant comedic projects spanning two decades in film and television. Working both behind and in front of the camera, she has contributed to numerous projects that showcase her versatile talent. While her last stage performance was over ten years ago, she recently returned to the theater world, joining the team at Zach Scott Theatre at the helm of hospitality and patron experience.</p>
+                        </div>
+
                         <div className="mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Sonnet Blanton, director</h2>
                             <img src="/img/castandcrew/sonnet.jpg" alt="Michelle Keffer" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
