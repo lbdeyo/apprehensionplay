@@ -38,13 +38,19 @@ export default function CastCrew() {
                             <img src="/img/castandcrew/mills.jpeg" alt="Jeff Mills" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
                             <p className="text-[#cdc49b] text-lg text-left mb-2">Jeff Mills is an award-winning theater artist who has rambled across the Austin theatre scene for the last 25 years. He has worked with the Rude Mechs, SVT, Physical Plant, Fusebox, Zach Scott, Refraction Arts, the Siti Company and many more. Out of St Edwards, he cut his teeth in the improv/sketch scene as a founding member of Fatbuckle & Think Tank, moved to NYC to work with the Muppets, and then returned to Austin as a producer, director, actor and sound designer. Notable credits include <i>The Assumption, Fixing King John, Roe, Everything is Established, Three, Spacestation1985, Fixing Troilus and Cressida,</i> and <i>Hotel Vanya</i>. In 2018, Jeff received the distinguished John Bustin Award for Conspicuous Versatility from the Austin Critics Table.</p>
                         </div>
-
-
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Brent Werzner, "Joe"</h2>
                             <img src="/img/castandcrew/werzner-pic.jpg" alt="Jennymarie Jemison" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
                             <p className="text-[#cdc49b] text-lg text-left">Brent Werzner is an actor who has worked and performed professionally with major motion picture, television, and interactive media studios, including A24, Netflix, NBC, CBS, Universal and Rockstar Games. Brent is an alumni of Saint Edward's University, in Austin, TX, and is a long-standing member of both the Screen Actors Guild (SAG) and Actor's Equity Association (AEA). He is known for his roles in critically acclaimed films <i>Green Room</i> (2015) and <i>Blue Ruin</i> (2013), as well as in CBS' <i>Blue Bloods</i>, and Netflix's <i>On My Block</i>. Theatrically, he has worked with the renowned SITI Company and director Anne Bogart, debuting the role of Poseidon in the <i>Trojan Women</i> (After Euripides) at the Getty Villa in Los Angeles and the Harvey Theatre in New York City. Brent also performed the title role in Euripides' <i>Herakles</i>; touring internationally through Greece, and at BAM's Fisher Stage in Brooklyn, NY.</p>
                         </div>
+                        <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Justin Smith, "Charles"</h2>
+                            <img src="/img/castandcrew/justin-smith.jpg" alt="Justin Smith" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left mb-2">Justin Smith is an actor and musician who last appeared in Jarrott Production's “Dial M for Murder” and will appear in Ground Floor Theatre's “Amy and the Orphans” in August. A lifelong musician; Justin has performed and recorded as a bass player, songwriter, and singer in Austin for many years. Other recent theatrical credits include Austin Shakespeare's “Jane Eyre” and Archive Theatre's “Three Musketeers”.</p>
+                        </div>
+
+
+
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Michelle Keffer, "Charlotte"</h2>
                             <img src="/img/castandcrew/michelle-keffer.jpg" alt="Michelle Keffer" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
