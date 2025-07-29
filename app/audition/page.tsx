@@ -1,4 +1,15 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Audition for Apprehension | Casting Call - Austin Theatre",
+    description: "Audition for Apprehension play at Carol Hickey Acting Studio, Austin. Casting roles for Katie, Charles, Lisa, and Woman. Paid rehearsals and performances Oct 9-Nov 1, 2025.",
+    openGraph: {
+        title: "Audition for Apprehension | Casting Call - Austin Theatre",
+        description: "Join the cast of Apprehension. Auditions June 20-21, 2025 at Carol Hickey Acting Studio, Austin.",
+    },
+};
+
 export default function Audition() {
     return (
         <div className="relative w-full min-h-screen bg-black">

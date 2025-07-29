@@ -1,4 +1,15 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "About Apprehension | The Play's Story & Warning",
+    description: "Learn about Apprehension, a psychological thriller by L.B. Deyo. Contains disturbing themes and psychological risk warnings. Read the full acknowledgment before proceeding.",
+    openGraph: {
+        title: "About Apprehension | The Play's Story & Warning",
+        description: "A psychological thriller where reality shifts and truth is shrouded in deceit. Contains disturbing themes and psychological risk warnings.",
+    },
+};
+
 export default function About() {
     return (
         <div className="relative w-full min-h-screen">

@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Press Kit | Apprehension Play - Media Resources",
+    description: "Press kit and media resources for Apprehension play. Download press releases, production photos, and contact information for media inquiries.",
+    openGraph: {
+        title: "Press Kit | Apprehension Play - Media Resources",
+        description: "Media resources and press materials for the psychological thriller Apprehension.",
+    },
+};
+
 export default function PressKit() {
     return (
         <div className="space-y-8">
