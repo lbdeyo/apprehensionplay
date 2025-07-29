@@ -62,6 +62,18 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/rjw3vjg.css" />
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7TZ7564HR"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Y7TZ7564HR');
+            `
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
