@@ -38,6 +38,7 @@ export default function CastCrew() {
                 {/* Masonry Cast & Crew Grid */}
                 <section className="mt-12">
                     <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
+
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Jennymarie Jemison, "Ava"</h2>
                             <img src="/img/castandcrew/jennymarie.jpeg" alt="Jennymarie Jemison as Ava in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
@@ -48,17 +49,19 @@ export default function CastCrew() {
                             <img src="/img/castandcrew/mills.jpeg" alt="Jeff Mills as Dr. Wozis in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
                             <p className="text-[#cdc49b] text-lg text-left mb-2">Jeff Mills is an award-winning theater artist who has rambled across the Austin theatre scene for the last 25 years. He has worked with the Rude Mechs, SVT, Physical Plant, Fusebox, Zach Scott, Refraction Arts, the Siti Company and many more. Out of St Edwards, he cut his teeth in the improv/sketch scene as a founding member of Fatbuckle & Think Tank, moved to NYC to work with the Muppets, and then returned to Austin as a producer, director, actor and sound designer. Notable credits include <i>The Assumption, Fixing King John, Roe, Everything is Established, Three, Spacestation1985, Fixing Troilus and Cressida,</i> and <i>Hotel Vanya</i>. In 2018, Jeff received the distinguished John Bustin Award for Conspicuous Versatility from the Austin Critics Table.</p>
                         </div>
-                        <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
-                            <h2 className="text-2xl  text-white mb-2 text-left">Brent Werzner, "Joe"</h2>
-                            <img src="/img/castandcrew/werzner-pic.jpg" alt="Brent Werzner as Joe in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
-                            <p className="text-[#cdc49b] text-lg text-left">Brent Werzner is an actor who has worked and performed professionally with major motion picture, television, and interactive media studios, including A24, Netflix, NBC, CBS, Universal and Rockstar Games. Brent is an alumni of Saint Edward's University, in Austin, TX, and is a long-standing member of both the Screen Actors Guild (SAG) and Actor's Equity Association (AEA). He is known for his roles in critically acclaimed films <i>Green Room</i> (2015) and <i>Blue Ruin</i> (2013), as well as in CBS' <i>Blue Bloods</i>, and Netflix's <i>On My Block</i>. Theatrically, he has worked with the renowned SITI Company and director Anne Bogart, debuting the role of Poseidon in the <i>Trojan Women</i> (After Euripides) at the Getty Villa in Los Angeles and the Harvey Theatre in New York City. Brent also performed the title role in Euripides' <i>Herakles</i>; touring internationally through Greece, and at BAM's Fisher Stage in Brooklyn, NY.</p>
-                        </div>
+
+
+
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Justin Smith, "Charles"</h2>
                             <img src="/img/castandcrew/justin-smith.jpg" alt="Justin Smith as Charles in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
                             <p className="text-[#cdc49b] text-lg text-left mb-2">Justin Smith is an actor and musician who last appeared in Jarrott Production's “Dial M for Murder” and will appear in Ground Floor Theatre's “Amy and the Orphans” in August. A lifelong musician; Justin has performed and recorded as a bass player, songwriter, and singer in Austin for many years. Other recent theatrical credits include Austin Shakespeare's “Jane Eyre” and Archive Theatre's “Three Musketeers”.</p>
                         </div>
-
+                        <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Brent Werzner, "Joe"</h2>
+                            <img src="/img/castandcrew/werzner-pic.jpg" alt="Brent Werzner as Joe in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left">Brent Werzner is an actor who has worked and performed professionally with major motion picture, television, and interactive media studios, including A24, Netflix, NBC, CBS, Universal and Rockstar Games. Brent is an alumni of Saint Edward's University, in Austin, TX, and is a long-standing member of both the Screen Actors Guild (SAG) and Actor's Equity Association (AEA). He is known for his roles in critically acclaimed films <i>Green Room</i> (2015) and <i>Blue Ruin</i> (2013), as well as in CBS' <i>Blue Bloods</i>, and Netflix's <i>On My Block</i>. Theatrically, he has worked with the renowned SITI Company and director Anne Bogart, debuting the role of Poseidon in the <i>Trojan Women</i> (After Euripides) at the Getty Villa in Los Angeles and the Harvey Theatre in New York City. Brent also performed the title role in Euripides' <i>Herakles</i>; touring internationally through Greece, and at BAM's Fisher Stage in Brooklyn, NY.</p>
+                        </div>
 
 
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
@@ -72,6 +75,15 @@ export default function CastCrew() {
                             <h2 className="text-2xl  text-white mb-2 text-left">Christopher Shea, producer</h2>
                             <img src="/img/castandcrew/shea.jpg" alt="Christopher Shea, producer of Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
                             <p className="text-[#cdc49b] text-lg text-left"> Christopher Shea is a multifaceted producer/director in the world of independent film, theater, and television. His impressive roster of projects includes acclaimed films such as <i>Lousy Carter</i>, which premiered at the Locarno Film Festival, the acclaimed Rooster Teeth web series <i>Arizona Circle</i>, and the PBS documentary series about stand up comedy in Austin, Texas called <i>Stand Up Empire</i>. As a producer and director based in Austin, Texas, Chris has helmed productions for Netflix, Apple TV, Discovery, A&E, and TLC. Chris' theatrical work has recently been for the Alchemy Theater, and includes <i>Good People</i>, <i>A Christmas Memory</i>, <i>Mack & Mabel</i>, <i>The Virgin Trial</i>, and most recently the critically acclaimed <i>Pipeline</i>.</p>
+                        </div>
+                        <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Danu Mara, "Woman"</h2>
+                            <img src="/img/castandcrew/danu-portrait.jpg" alt="Jennymarie Jemison as Ava in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left">Danu Mara is a voice-over and on-camera actor with over 20 years of experience in commercials, animation, film, video games, and eLearning. She's voiced hundreds of characters for educational software used nationwide and performed internationally in <i>The Intergalactic Nemesis</i>, portraying a wide range of humans, robots, and aliens.
+                            </p>
+                            <br />
+                            <p className="text-[#cdc49b] text-lg text-left">
+                                Her credits include roles in <i> Flatland: The Movie</i> (alongside Martin Sheen and Kristen Bell) andRooster Teeth's  <i>Lazer Team 2</i> and <i>Nomad of Nowhere</i>. A Daytime Emmy nominee with a B.A. in Drama from Texas Woman's University, Danu has also trained at The Second City in Chicago and is a core member of the acclaimed sketch troupe, The Latino Comedy Project.</p>
                         </div>
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/50 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Erica Heidepriem, "Lisa"</h2>
