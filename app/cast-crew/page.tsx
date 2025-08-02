@@ -15,7 +15,7 @@ export default function CastCrew() {
     return (
         <div className="relative w-full min-h-screen">
             {/* Full-bleed background image */}
-            <div className="absolute inset-0 w-full h-full bg-cover bg-top z-0" style={{ backgroundImage: 'url(/img/apprehension-poster-concept-4.jpg)', backgroundSize: 'cover' }} />
+            <div className="absolute inset-0 w-full h-full bg-cover bg-top z-0" style={{ backgroundImage: 'url(/img/cast-crew-bg.jpg)', backgroundSize: 'cover' }} />
             {/* Overlay */}
             <div className="absolute inset-0 w-full h-full bg-[#070C17]/15 z-10" />
             {/* Constrained content */}
