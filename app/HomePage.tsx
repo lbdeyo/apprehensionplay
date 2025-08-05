@@ -47,9 +47,9 @@ export default function HomePage() {
                             A play by L.B. Deyo
                         </p>
                     </div>
-                    <div className="w-9xl opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}>
+                    {/* <div className="w-9xl opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}>
                         <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180 select-none" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>Nothing is real and everything is permissible.</p>
-                    </div>
+                    </div> */}
 
                     <div className="flex flex-col md:flex-row opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
                         <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
@@ -72,6 +72,9 @@ export default function HomePage() {
                             </p>
                         </div>
                     </div>
+                    <div className="text-white text-xl md:text-2xl md:max-w-[70%]">
+                        <p className="opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}><i>Apprehension</i> is a paranoid psychological thriller about Joe Dempsey, a man tormented by memory lapses and gnawing doubts about his own past. During a period of emotional collapse, Joe begins to suspect that his wife and friends are not who they seem to be. As his grasp on reality wavers, he struggles to determine whether he's uncovering a horrific truth or falling prey to delusion. Set in a world of shifting loyalties, buried traumas, and eerie disappearances, <i>Apprehension</i> explores the line between paranoia and insight.</p>
+                    </div>
                     <div className="md:max-w-[50%] mt-10 border border-white border-2 flex flex-col shadow-lg opacity-0 animate-fade-in">
                         {/* First row: Danger symbol and warning */}
                         <div className="flex flex-row">
@@ -89,6 +92,8 @@ export default function HomePage() {
                             </p>
                         </div>
                     </div>
+
+
 
 
                 </section>
