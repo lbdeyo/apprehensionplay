@@ -68,7 +68,7 @@ export default function HomePage() {
                                 Oct. 9-Nov. 1, Thurs-Sat, 8:00 pm
                             </p>
                             <p className="md:my-2">
-                                Hyde Park Theatre, Austin, Texas
+                                <a href="https://www.hydeparktheatre.org/" className="hover:underline">Hyde Park Theatre</a>, Austin, Texas
                             </p>
                         </div>
                     </div>
