@@ -37,8 +37,13 @@ export default function CastCrew() {
 
                 {/* Masonry Cast & Crew Grid */}
                 <section className="mt-12">
-                    <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
 
+                    <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
+                        <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+                            <h2 className="text-2xl  text-white mb-2 text-left">Jessica Cohen, "Katie"</h2>
+                            <img src="/img/castandcrew/jessica-cohen-portrait.jpg" alt="Jessica Cohen as Katie in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
+                            <p className="text-[#cdc49b] text-lg text-left">Jessica is an actor, writer, musician, filmmaker, and all-around storyteller and performer who has been a part of the Austin creative community for much of her life. She has appeared in many theatrical productions in Austin and beyond, having performed on stages such as The Vortex, City Theatre Austin, and Trinity Street Players, her most recent stage role being “Little Red” in City Theatre's <i>Into The Woods</i>. She has a background in devising original work and improv comedy, which she has studied at places such as The Second City and The Hideout Theatre. She has been in several films, including Richard Linklater's feature film <i>Apollo 10 1/2</i> (2022), which was featured at SXSW 2022 and is streaming on Netflix. In addition, she is an avid singer/songwriter and has released several singles on Spotify; she is planning to release more music in the near future. You can follow her on Instagram at <a href="https://www.instagram.com/jessa.cohen/" rel="noopener noreferrer">@jessa.cohen.</a></p>
+                        </div>
                         <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
                             <h2 className="text-2xl  text-white mb-2 text-left">Jennymarie Jemison, "Ava"</h2>
                             <img src="/img/castandcrew/jennymarie.jpeg" alt="Jennymarie Jemison as Ava in Apprehension play" className="w-full h-auto max-w-xs rounded-md mb-3 object-cover" />
