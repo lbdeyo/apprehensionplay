@@ -9,7 +9,7 @@ export default function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navItems = [
-        { name: 'Home', path: '/' },
+        { name: 'Tickets', path: 'https://www.ticketleap.events/tickets/holi-shamoli-productions/apprehension' },
         { name: 'About', path: '/about' },
         { name: 'Images/Videos', path: '/media' },
         { name: 'Cast & Crew', path: '/cast-crew' },
@@ -51,7 +51,8 @@ export default function Navigation() {
                                 <Link
                                     key={item.path}
                                     href={item.path}
-                                    className="px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
+                                    rel={item.path.startsWith('http') ? 'noreferrer' : undefined}
+                                    className="px-3 py-2 text-lg text-white hover:text-[#f5e7c5] hover:underline underline-offset-8 decoration-[#f5e7c5] decoration-2 transition-colors duration-200 [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
                                 >
                                     {item.name}
                                 </Link>
@@ -126,7 +127,8 @@ export default function Navigation() {
                             <Link
                                 key={item.path}
                                 href={item.path}
-                                className="block px-3 py-2 text-lg text-white hover:text-white transition-colors [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
+                                rel={item.path.startsWith('http') ? 'noreferrer' : undefined}
+                                className="block px-3 py-2 text-lg text-white hover:text-[#f5e7c5] hover:underline underline-offset-8 decoration-[#f5e7c5] decoration-2 transition-colors duration-200 [text-shadow:_0_2px_4px_rgba(0,0,0,0.2)]"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 {item.name}

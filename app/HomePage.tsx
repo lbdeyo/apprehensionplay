@@ -33,12 +33,9 @@ export default function HomePage() {
             <div className="relative z-20 w-full max-w-7xl mx-auto space-y-12 pt-20 pb-16 text-left px-4 sm:px-6 lg:px-8">
                 {/* Hero Section */}
                 <section className="space-y-4 text-left">
+
                     <div className="relative w-full max-w-max">
-                        <p className="text-2xl mt-6 md:mt-14 md:text-4xl text-right text-[#BEB58F] ml-auto flex gap-8 hidden" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
-                            <AnimatedSlideIn delay={0.4}>Jennymarie Jemison</AnimatedSlideIn>
-                            <AnimatedSlideIn delay={0.2}>Jeff Mills</AnimatedSlideIn>
-                            <AnimatedSlideIn delay={0}>Michelle Keffer</AnimatedSlideIn>
-                        </p>
+
                         <h1 className="text-6xl md:text-9xl lg:text-9xl text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F] animate-fade-in" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>
                             Apprehension
                         </h1>
@@ -46,9 +43,12 @@ export default function HomePage() {
                             A play by L.B. Deyo
                         </p>
                     </div>
-                    {/* <div className="w-9xl opacity-0 animate-fade-in" style={{ animationDelay: '0.9s' }}>
-                        <p className="text-[#C42C23] text-2xl md:text-7xl rotate-180 select-none" style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}>Nothing is real and everything is permissible.</p>
-                    </div> */}
+                    <div className="my-5 md:my-10 flex flex-col md:flex-row md:justify-center items-start md:items-center gap-8">
+                        <p className="hidden md:block text-white text-2xl md:text-4xl my-0">Tickets are on sale now.</p>
+                        <a href="https://www.ticketleap.events/tickets/holi-shamoli-productions/apprehension" rel="noreferrer" className="bg-white text-black px-8 py-4 my-0 rounded-full font-bold text-xl w-fit hover:bg-transparent hover:text-white border border-white transition-all">Get Tickets</a>
+                    </div>
+
+
 
                     <div className="flex flex-col md:flex-row opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
                         <div className="p-5   border-r border-t border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl mb-0 " style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }} >
