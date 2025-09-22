@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-ratio: 'ratiomodern', serif;
+  --font-ratio: "ratiomodern", serif;
 }
 
 @theme inline {
@@ -11,6 +11,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-ratio);
   --font-mono: var(--font-geist-mono);
+  --breakpoint-3xl: 1800px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,13 +35,11 @@ body {
   font-style: normal;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind v4 is imported via the main entry below; preflight/utilities are included */
 
 @layer base {
   :root {
-    --font-ratio: 'ratiomodern', serif;
+    --font-ratio: "ratiomodern", serif;
   }
 
   h1,

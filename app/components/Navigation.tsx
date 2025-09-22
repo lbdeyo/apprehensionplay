@@ -17,6 +17,7 @@ export default function Navigation() {
     { name: "Images/Videos", path: "/media" },
     { name: "Cast & Crew", path: "/cast-crew" },
     { name: "Contact", path: "/contact" },
+    { name: "Mailing List", path: "/subscribe" },
   ];
 
   return (
@@ -50,8 +51,8 @@ export default function Navigation() {
             </div>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden sm:flex sm:items-center">
+          {/* Desktop Navigation (xl and up) */}
+          <div className="hidden xl:flex xl:items-center">
             {/* Nav links */}
             <div className="flex items-center gap-8">
               {navItems.map((item) => (
@@ -86,8 +87,8 @@ export default function Navigation() {
             </div>
           </div>
 
-          {/* Mobile menu button */}
-          <div className="sm:hidden flex items-center">
+          {/* Mobile menu button (below xl) */}
+          <div className="xl:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-[#b32b17] transition-colors"
@@ -127,9 +128,9 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile menu (below xl) */}
       {isMenuOpen && (
-        <div className="sm:hidden">
+        <div className="xl:hidden">
           {/* Social icons for mobile */}
           <div className="flex justify-start gap-4 mb-4 mt-6 pl-4">
             <a
