@@ -4,10 +4,38 @@ export const metadata: Metadata = {
   title: "Subscribe | Apprehension Play Mailing List",
   description:
     "Join the Apprehension mailing list to get updates on performances, tickets, and behind-the-scenes content.",
+  keywords:
+    "Apprehension mailing list, L.B. Deyo newsletter, theatre updates, performance notifications, Austin play subscribe",
   openGraph: {
     title: "Subscribe | Apprehension Play Mailing List",
     description:
-      "Get updates on Apprehension: performance dates, ticket releases, and exclusive content.",
+      "Get updates on Apprehension: performance dates, ticket releases, and exclusive behind-the-scenes content.",
+    url: "https://apprehensionplay.com/subscribe",
+    images: [
+      {
+        url: "/img/poster-concept-5.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Subscribe to Apprehension Play Updates",
+      },
+      {
+        url: "/meta-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Apprehension Mailing List",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Subscribe | Apprehension Play Mailing List",
+    description:
+      "Join the mailing list for updates on Apprehension performances and exclusive content.",
+    images: ["/img/poster-concept-5.jpg"],
+  },
+  alternates: {
+    canonical: "/subscribe",
   },
 };
 

@@ -6,10 +6,38 @@ export const metadata: Metadata = {
   title: "Cast & Crew | Apprehension Play - Meet the Team",
   description:
     "Meet the talented cast and crew of Apprehension: Jennymarie Jemison, Jeff Mills, Michelle Keffer, Brent Werzner, and more. Directed by Sonnet Blanton, written by L.B. Deyo.",
+  keywords:
+    "Apprehension cast, Jennymarie Jemison, Jeff Mills, Michelle Keffer, Brent Werzner, Sonnet Blanton director, L.B. Deyo playwright, Austin theatre actors",
   openGraph: {
     title: "Cast & Crew | Apprehension Play - Meet the Team",
     description:
-      "Meet the talented cast and crew of Apprehension, featuring award-winning Austin theatre artists.",
+      "Meet the talented cast and crew of Apprehension, featuring award-winning Austin theatre artists including Jennymarie Jemison, Jeff Mills, and Michelle Keffer.",
+    url: "https://apprehensionplay.com/cast-crew",
+    images: [
+      {
+        url: "/img/cast-crew-bg.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Apprehension Cast & Crew - Austin Theatre Artists",
+      },
+      {
+        url: "/meta-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Apprehension Play Cast & Crew",
+      },
+    ],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cast & Crew | Apprehension Play - Meet the Team",
+    description:
+      "Meet the award-winning Austin theatre artists bringing Apprehension to life at Hyde Park Theatre.",
+    images: ["/img/cast-crew-bg.jpg"],
+  },
+  alternates: {
+    canonical: "/cast-crew",
   },
 };
 
