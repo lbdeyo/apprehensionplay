@@ -94,6 +94,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta
+          property="og:image"
+          content="https://www.apprehensionplay.com/meta-image.jpg"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
         <link rel="stylesheet" href="https://use.typekit.net/rjw3vjg.css" />
         {/* Google Analytics */}
         <script
