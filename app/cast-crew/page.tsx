@@ -144,7 +144,7 @@ export default function CastCrew() {
                 appeared in many theatrical productions in Austin and beyond,
                 having performed on stages such as The Vortex, City Theatre
                 Austin, and Trinity Street Players, her most recent stage role
-                being “Little Red” in City Theatre’s <i>Into The Woods</i>. She
+                being "Little Red" in City Theatre's <i>Into The Woods</i>. She
                 has a background in devising original work, and holds a B. Iden
                 Payne for “Outstanding Featured Musical Performance” for her
                 work in the 2021 Vortex Summer Youth Theatre. She has worked on
