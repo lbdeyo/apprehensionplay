@@ -234,7 +234,7 @@ export default function CastCrew() {
                 Shakespeare's <i>Jane Eyre</i>, Jarrot Productions'{" "}
                 <i>Dial M for Murder</i> and Ground Floor Theatre's Texas
                 premier of <i>Amy and The Orphans</i>. He will next appear back
-                at Ground Floor Theatre for their 10th Anniversary production of
+                at Ground Floor Theatre for their 10th Anniversary production of{" "}
                 <i>Parade</i>.
               </p>
             </div>
