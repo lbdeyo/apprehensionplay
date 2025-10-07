@@ -81,132 +81,6 @@ export default function CastCrew() {
           <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
             <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
               <h2 className="text-2xl  text-white mb-2 text-left">
-                Scarlett Teague, Stage Manager & Costume Designer
-              </h2>
-              <img
-                src="/img/castandcrew/scarlett.jpg"
-                alt="Jessica Cohen as Katie in Apprehension play"
-                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
-              />
-              <p className="text-[#cdc49b] text-lg text-left">
-                Scarlett is excited to be a part of <i>Apprehension</i> at Hyde
-                Park Theatre. Her previous productions include{" "}
-                <i>Spongebob the Musical</i>at Magnolia Musical Theatre (Costume
-                Supervisor) and <i>The Play that Goes Wrong</i> at Moe and Gene
-                Johnson High School (Director). She is a current theatre student
-                at Texas State University.
-              </p>
-            </div>
-            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
-              <h2 className="text-2xl  text-white mb-2 text-left">
-                Jessica Cohen, "Katie"
-              </h2>
-              <img
-                src="/img/castandcrew/jessica-cohen-portrait.jpg"
-                alt="Jessica Cohen as Katie in Apprehension play"
-                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
-              />
-              <p className="text-[#cdc49b] text-lg text-left">
-                Jessica is an actor, writer, musician, filmmaker, and all-around
-                storyteller and performer who has been a part of the Austin
-                creative community for much of her life. She has appeared in
-                many theatrical productions in Austin and beyond, having
-                performed on stages such as The Vortex, City Theatre Austin, and
-                Trinity Street Players, her most recent stage role being “Little
-                Red” in City Theatre's <i>Into The Woods</i>. She has a
-                background in devising original work and improv comedy, which
-                she has studied at places such as The Second City and The
-                Hideout Theatre. She has been in several films, including
-                Richard Linklater's feature film <i>Apollo 10 1/2</i> (2022),
-                which was featured at SXSW 2022 and is streaming on Netflix. In
-                addition, she is an avid singer/songwriter and has released
-                several singles on Spotify; she is planning to release more
-                music in the near future. You can follow her on Instagram at{" "}
-                <a
-                  href="https://www.instagram.com/jessa.cohen/"
-                  rel="noopener noreferrer"
-                >
-                  @jessa.cohen.
-                </a>
-              </p>
-            </div>
-            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
-              <h2 className="text-2xl  text-white mb-2 text-left">
-                Jennymarie Jemison, "Ava"
-              </h2>
-              <img
-                src="/img/castandcrew/jennymarie.jpeg"
-                alt="Jennymarie Jemison as Ava in Apprehension play"
-                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
-              />
-              <p className="text-[#cdc49b] text-lg text-left">
-                Jennymarie's last theatrical appearance was in The Hidden Room's{" "}
-                <i>The Rover</i> in 2019, but she has remained active in the
-                world of independent film. Recent credits include <i>Wüm</i>,
-                which premiered at the 2023 SXSW film festival, and she
-                portrayed Texas suffragist Minnie Fisher Cunningham in the PBS
-                documentary <i>Citizens at Last</i>. She is known for her
-                creative direction & graphic design, which is currently on
-                display at Austin Bergstrom international airport's South
-                Terminal, as well as her vibrant & influential gardening
-                endeavor, Joy Max Garden. Her short film{" "}
-                <i>Quiet Girl's Guide to Violence</i>, premiered at Fantastic
-                Fest in 2012 & made history as the first narrative film on the
-                Steam network. When not on stage or screen, you Jenny can be
-                found in her garden, regularly documented through her
-                well-followed & popular @jmjgrows IG account.
-              </p>
-            </div>
-            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
-              <h2 className="text-2xl  text-white mb-2 text-left">
-                Jeff Mills, "Dr. Wozis"
-              </h2>
-              <img
-                src="/img/castandcrew/mills.jpeg"
-                alt="Jeff Mills as Dr. Wozis in Apprehension play"
-                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
-              />
-              <p className="text-[#cdc49b] text-lg text-left mb-2">
-                Jeff Mills is an award-winning theater artist who has rambled
-                across the Austin theatre scene for the last 25 years. He has
-                worked with the Rude Mechs, SVT, Physical Plant, Fusebox, Zach
-                Scott, Refraction Arts, the Siti Company and many more. Out of
-                St Edwards, he cut his teeth in the improv/sketch scene as a
-                founding member of Fatbuckle & Think Tank, moved to NYC to work
-                with the Muppets, and then returned to Austin as a producer,
-                director, actor and sound designer. Notable credits include{" "}
-                <i>
-                  The Assumption, Fixing King John, Roe, Everything is
-                  Established, Three, Spacestation1985, Fixing Troilus and
-                  Cressida,
-                </i>{" "}
-                and <i>Hotel Vanya</i>. In 2018, Jeff received the distinguished
-                John Bustin Award for Conspicuous Versatility from the Austin
-                Critics Table.
-              </p>
-            </div>
-
-            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
-              <h2 className="text-2xl  text-white mb-2 text-left">
-                Justin Smith, "Charles"
-              </h2>
-              <img
-                src="/img/castandcrew/justin-smith.jpg"
-                alt="Justin Smith as Charles in Apprehension play"
-                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
-              />
-              <p className="text-[#cdc49b] text-lg text-left mb-2">
-                Justin Smith is an actor and musician who last appeared in
-                Jarrott Production's “Dial M for Murder” and will appear in
-                Ground Floor Theatre's “Amy and the Orphans” in August. A
-                lifelong musician; Justin has performed and recorded as a bass
-                player, songwriter, and singer in Austin for many years. Other
-                recent theatrical credits include Austin Shakespeare's “Jane
-                Eyre” and Archive Theatre's “Three Musketeers”.
-              </p>
-            </div>
-            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
-              <h2 className="text-2xl  text-white mb-2 text-left">
                 Brent Werzner, "Joe"
               </h2>
               <img
@@ -220,17 +94,148 @@ export default function CastCrew() {
                 interactive media studios, including A24, Netflix, NBC, CBS,
                 Universal and Rockstar Games. Brent is an alumni of Saint
                 Edward's University, in Austin, TX, and is a long-standing
-                member of both the Screen Actors Guild (SAG) and Actor's Equity
-                Association (AEA). He is known for his roles in critically
-                acclaimed films <i>Green Room</i> (2015) and <i>Blue Ruin</i>{" "}
-                (2013), as well as in CBS' <i>Blue Bloods</i>, and Netflix's{" "}
-                <i>On My Block</i>. Theatrically, he has worked with the
-                renowned SITI Company and director Anne Bogart, debuting the
-                role of Poseidon in the <i>Trojan Women</i> (After Euripides) at
-                the Getty Villa in Los Angeles and the Harvey Theatre in New
-                York City. Brent also performed the title role in Euripides'{" "}
-                <i>Herakles</i>; touring internationally through Greece, and at
-                BAM's Fisher Stage in Brooklyn, NY.
+                member of the Screen Actors Guild (SAG). He is known for his
+                roles in critically acclaimed films <i>Green Room</i> (2015) and{" "}
+                <i>Blue Ruin</i> (2013), as well as in CBS' <i>Blue Bloods</i>,
+                and Netflix's episodic comedy, <i>On My Block</i>. Theatrically,
+                he has worked with the renowned SITI Company and director Anne
+                Bogart, debuting the role of Poseidon in the <i>Trojan Women</i>{" "}
+                (After Euripides) at the Getty Villa in Los Angeles and the
+                Harvey Theatre in New York City. Brent also performed the title
+                role in Euripides' <i>Herakles</i>; touring internationally
+                through Greece, and at BAM's Fisher Stage in Brooklyn, NY. Brent
+                also works as an employment and civil rights paralegal for
+                Kaplan Law Firm in Austin. Brent wishes to express his deepest
+                gratitude to Elizabeth, his wife and partner, whose love and
+                support have made it possible to work on this production.
+              </p>
+            </div>
+            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+              <h2 className="text-2xl  text-white mb-2 text-left">
+                Scarlett Teague, Stage Manager & Costume Designer
+              </h2>
+              <img
+                src="/img/castandcrew/scarlett.jpg"
+                alt="Scarlett Teague, stage manager and costume designer of Apprehension"
+                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
+              />
+              <p className="text-[#cdc49b] text-lg text-left">
+                Scarlett is excited to be a part of Apprehension at Hyde Park
+                Theatre. Her previous productions include{" "}
+                <i>Spongebob the Musical</i> at Magnolia Musical Theatre
+                (Costume Supervisor) and <i>The Play that Goes Wrong</i> at Moe
+                and Gene Johnson High School (Director). She is a current
+                student at Texas State University.
+              </p>
+            </div>
+            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+              <h2 className="text-2xl  text-white mb-2 text-left">
+                Jessica Cohen, "Katie"
+              </h2>
+              <img
+                src="/img/castandcrew/jessica-cohen-portrait.jpg"
+                alt="Jessica Cohen as Katie in Apprehension play"
+                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
+              />
+              <p className="text-[#cdc49b] text-lg text-left">
+                Jessica Brynn Cohen is an actor, writer, musician, filmmaker,
+                and all-around storyteller and performer who has been a part of
+                the ATX creative community for much of her life. She has
+                appeared in many theatrical productions in Austin and beyond,
+                having performed on stages such as The Vortex, City Theatre
+                Austin, and Trinity Street Players, her most recent stage role
+                being “Little Red” in City Theatre’s <i>Into The Woods</i>. She
+                has a background in devising original work, and holds a B. Iden
+                Payne for “Outstanding Featured Musical Performance” for her
+                work in the 2021 Vortex Summer Youth Theatre. She has worked on
+                several films, including Richard Linklater's Netflix original
+                <i>Apollo 10 ½</i> (2022), which was featured at SXSW 2022. She
+                is an avid singer/songwriter and has released several singles on
+                Spotify, with plans to release more music in the near future,
+                and several other creative projects currently in the works. You
+                can connect with her on Instagram{" "}
+                <a href="https://www.instagram.com/jessa.cohen/">
+                  @jessa.cohen.
+                </a>
+                Jessica would like to thank her family for their endless love
+                and support.
+              </p>
+            </div>
+            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+              <h2 className="text-2xl  text-white mb-2 text-left">
+                Jeff Mills, "Dr. Wozis"
+              </h2>
+              <img
+                src="/img/castandcrew/mills.jpeg"
+                alt="Jeff Mills as Dr. Wozis in Apprehension play"
+                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
+              />
+              <p className="text-[#cdc49b] text-lg text-left mb-2">
+                Jeff Mills is an award winning theater artist who has rambled
+                across the Austin theatre scene for the last 25 years. He has
+                worked with the Rude Mechs, SVT, Physical Plant, Fusebox, Zach
+                Theater,, Refraction Arts, the Siti Company and many more. Out
+                of St Edwards he cut his teeth in the improv/sketch scene as a
+                founding member of Fatbuckle & Think Tank, moved to NYC to work
+                with the Muppets, and then returned to Austin as a producer,
+                director, actor and sound designer. Notable credits include{" "}
+                <i>The Assumption</i>, <i>Fixing King John</i>, <i>Roe</i>,{" "}
+                <i>Everything is Established</i>, <i>Three</i>,{" "}
+                <i>Spacestation1985</i>, <i>Fixing Troilus and Cressida</i>, and{" "}
+                <i>Hotel Vanya</i>. In 2018, Jeff received the distinguished
+                John Bustin Award for Conspicuous Versatility from the Austin
+                Critics Table.
+              </p>
+            </div>
+            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+              <h2 className="text-2xl  text-white mb-2 text-left">
+                Jennymarie Jemison, "Ava"
+              </h2>
+              <img
+                src="/img/castandcrew/jennymarie.jpeg"
+                alt="Jennymarie Jemison as Ava in Apprehension play"
+                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
+              />
+              <p className="text-[#cdc49b] text-lg text-left">
+                Jennymarie Jemison is thrilled to return to the Austin stage
+                after last appearing in The Hidden Room's <i>The Rover</i> in
+                2019. Since then, she has remained active in independent film,
+                with recent credits including <i>Wüm</i> (SXSW 2023) and as
+                Texas suffragist Minnie Fisher Cunningham in the PBS documentary
+                <i>Citizens at Last</i> (now airing). By day, you can find her
+                serving as Creative Director at Zach Theater or (like Ava) in
+                her garden. Her online seed shop,{" "}
+                <a href="https://www.joymaxjardin.com/">Joy Max Jardín</a>,
+                earned her the 2025 Austin Chronicle "Best of Austin" cover. JMJ
+                would like to thank L.B. Deyo for writing such a ferocious role
+                and trusting her with it, and her husband, Christopher Shea, who
+                has worked tirelessly to bring this show to life. Follow her at{" "}
+                <a href="https://www.instagram.com/jmjgrows/">@jmjgrows</a> if
+                you are now curious about gardening or just want a "Compost the
+                Patriarchy" hat.
+              </p>
+            </div>
+
+            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+              <h2 className="text-2xl  text-white mb-2 text-left">
+                Justin Smith, "Charles"
+              </h2>
+              <img
+                src="/img/castandcrew/justin-smith.jpg"
+                alt="Justin Smith as Charles in Apprehension play"
+                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
+              />
+              <p className="text-[#cdc49b] text-lg text-left mb-2">
+                Justin Smith is an actor and musician who's been a member of
+                Austin's creative community for 15(ish) years. Justin moved to
+                Austin from Memphis and since has been featured on various
+                Austin records over his tenure as a bass player, songwriter and
+                singer. As an actor Justin's recent stage credits include Austin
+                Shakespeare's <i>Jane Eyre</i>, Jarrot Productions'{" "}
+                <i>Dial M for Murder</i> and Ground Floor Theatre's Texas
+                premier of <i>Amy and The Orphans</i>. He will next appear back
+                at Ground Floor Theatre for their 10th Anniversary production of
+                <i>Parade</i>.
               </p>
             </div>
 
@@ -244,14 +249,39 @@ export default function CastCrew() {
                 className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
               />
               <p className="text-[#cdc49b] text-lg text-left mb-2">
-                Michelle is an actor, emcee, producer and writer that has been
-                performing on various Austin stages for 20 years. Before her
-                decade-long hiatus from traditional theatre, she worked with
-                Hyde Park Theatre, Paper Chairs, Breaking String and Pollyanna
-                Theatre Company, among others. She was a producer, writer and
-                actor in the variety/sketch comedy show <i>Industry Night</i>,
-                and is currently the emcee and co-producer of Natalie George
-                Productions' Cabaret.
+                Michelle is an actor, emcee, producer and writer with over 30
+                years of on-stage experience. Alongside various on-camera and
+                voice-over roles, she has worked with Hyde Park Theatre, Paper
+                Chairs, Breaking String and Fusebox Festival, among others. She
+                was a producer, writer and actor in the variety/sketch comedy
+                show <i>Industry Night</i>, and is currently the emcee and
+                co-producer of <i>Natalie George Productions Cabaret</i>.
+              </p>
+            </div>
+
+            <div className="mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+              <h2 className="text-2xl  text-white mb-2 text-left">
+                Natalie George, lighting designer
+              </h2>
+              <img
+                src="/img/castandcrew/natalie.jpeg"
+                alt="Natalie George, lighting designer of Apprehension"
+                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
+              />
+              <p className="text-[#cdc49b] text-lg text-left">
+                Natalie George is an award winning lighting designer, producer,
+                events manager, and artist based in Austin, TX. After studying
+                Theater Arts at St. Edward’s University, Natalie began to work
+                as a freelance lighting designer and stage manager around Austin
+                and beyond. Quickly her design work became her full-time focus,
+                designing for Salvage Vanguard Theater, Rude Mechs, Mary Moody
+                Northen Theater, The O'Neill Theater Center, and many more. In
+                2014 she founded Natalie George Productions, where she now works
+                full-time as Executive Director. While she enjoys working
+                throughout the US, her love of all things Austin keeps her
+                rooted here and affords her the opportunity to use her many
+                contacts and resources to collaborate on interesting projects as
+                a lighting designer, technical consultant, or event producer.
               </p>
             </div>
 
@@ -265,21 +295,22 @@ export default function CastCrew() {
                 className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
               />
               <p className="text-[#cdc49b] text-lg text-left">
-                {" "}
-                Christopher Shea is a multifaceted producer/director in the
-                world of independent film, theater, and television. His
-                impressive roster of projects includes acclaimed films such as{" "}
-                <i>Lousy Carter</i>, which premiered at the Locarno Film
-                Festival, the acclaimed Rooster Teeth web series{" "}
-                <i>Arizona Circle</i>, and the PBS documentary series about
-                stand up comedy in Austin, Texas called <i>Stand Up Empire</i>.
-                As a producer and director based in Austin, Texas, Chris has
-                helmed productions for Netflix, Apple TV, Discovery, A&E, and
-                TLC. Chris' theatrical work has recently been for the Alchemy
-                Theater, and includes <i>Good People</i>,{" "}
+                Chris is a multifaceted producer/director in the world of
+                independent film, theater, and television. His impressive roster
+                of projects includes acclaimed films such as <i>Lousy Carter</i>
+                , which premiered at the Locarno Film Festival, the acclaimed
+                Rooster Teeth web series <i>Arizona Circle</i>, and the PBS
+                documentary series about stand up comedy in Austin, Texas called{" "}
+                <i>Stand Up Empire</i>. As a producer and director based in
+                Austin, Texas Chris has helmed productions for Netflix, Apple
+                TV, Discovery, A&E, and TLC. Chris' theatrical work has recently
+                been for the Alchemy Theater, and includes <i>Good People</i>,{" "}
                 <i>A Christmas Memory</i>, <i>Mack & Mabel</i>,{" "}
                 <i>The Virgin Trial</i>, and most recently the critically
-                acclaimed <i>Pipeline</i>.
+                acclaimed <i>Pipeline</i>. Having worked with Entr'acte & Doctuh
+                Mista Productions in 2025, Chris considers himself fortunate to
+                continue his tenure working in Austin theatre with so many
+                wonderful & talented human beings.
               </p>
             </div>
             <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
@@ -294,20 +325,16 @@ export default function CastCrew() {
               <p className="text-[#cdc49b] text-lg text-left">
                 Danu Mara is a voice-over and on-camera actor with over 20 years
                 of experience in commercials, animation, film, video games, and
-                eLearning. She's voiced hundreds of characters for educational
-                software used nationwide and performed internationally in{" "}
-                <i>The Intergalactic Nemesis</i>, portraying a wide range of
-                humans, robots, and aliens.
-              </p>
-              <br />
-              <p className="text-[#cdc49b] text-lg text-left">
-                Her credits include roles in <i> Flatland: The Movie</i>{" "}
-                (alongside Martin Sheen and Kristen Bell) andRooster Teeth's{" "}
-                <i>Lazer Team 2</i> and <i>Nomad of Nowhere</i>. A Daytime Emmy
-                nominee with a B.A. in Drama from Texas Woman's University, Danu
-                has also trained at The Second City in Chicago and is a core
-                member of the acclaimed sketch troupe, The Latino Comedy
-                Project.
+                eLearning. She voiced hundreds of characters for educational
+                software used nationwide and performed internationally in The
+                Intergalactic Nemesis, portraying a wide range of humans,
+                robots, and aliens. Her credits include roles in{" "}
+                <i>Flatland: The Movie</i> (alongside Martin Sheen and Kristen
+                Bell) and Rooster Teeth's <i>Lazer Team 2</i> and{" "}
+                <i>Nomad of Nowhere</i>. A Daytime Emmy nominee with a B.A. in
+                Drama from Texas Woman's University, Danu has also trained at
+                The Second City in Chicago and is a core member of the acclaimed
+                sketch troupe, The Latino Comedy Project.
               </p>
             </div>
             <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
@@ -326,8 +353,8 @@ export default function CastCrew() {
                 and in front of the camera, she has contributed to numerous
                 projects that showcase her versatile talent. While her last
                 stage performance was over ten years ago, she recently returned
-                to the theater world, joining the team at Zach Scott Theatre at
-                the helm of hospitality and patron experience.
+                to the theater world, joining the team at Zach Theater at the
+                helm of hospitality and patron experience.
               </p>
             </div>
 
@@ -341,12 +368,11 @@ export default function CastCrew() {
                 className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
               />
               <p className="text-[#cdc49b] text-lg text-left">
-                Sonnet Blanton is an award-winning theatre artist living in
-                Austin, Texas. In her 20-plus year career here as a director,
-                producer, writer, and performer she has worked with Salvage
-                Vanguard Theater, Paper Chairs, Scriptworks, Glass Half Full
-                Theatre, Fusebox Festival, Ariel Dance Theatre, and Grackle
-                Jack.
+                Sonnet is an award-winning theatre artist living in Austin,
+                Texas. In her 20 plus year career here as a director, producer,
+                writer, and performer she has worked with Salvage Vanguard
+                Theater, Paper Chairs, Scriptworks, Glass Half Full Theatre,
+                Fusebox Festival, Ariel Dance Theatre, and Grackle Jack.
               </p>
             </div>
             <div className="mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
