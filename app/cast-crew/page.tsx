@@ -81,6 +81,24 @@ export default function CastCrew() {
           <div className="columns-1 md:columns-2 lg:columns-3 gap-6">
             <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
               <h2 className="text-2xl  text-white mb-2 text-left">
+                Scarlett Teague, Stage Manager & Costume Designer
+              </h2>
+              <img
+                src="/img/castandcrew/scarlett.jpg"
+                alt="Jessica Cohen as Katie in Apprehension play"
+                className="w-full h-auto max-w-xs rounded-md mb-3 object-cover"
+              />
+              <p className="text-[#cdc49b] text-lg text-left">
+                Scarlett is excited to be a part of <i>Apprehension</i> at Hyde
+                Park Theatre. Her previous productions include{" "}
+                <i>Spongebob the Musical</i>at Magnolia Musical Theatre (Costume
+                Supervisor) and <i>The Play that Goes Wrong</i> at Moe and Gene
+                Johnson High School (Director). She is a current theatre student
+                at Texas State University.
+              </p>
+            </div>
+            <div className=" mb-8 break-inside-avoid bg-[#070C17]/70 rounded-lg shadow-lg p-6 flex flex-col items-start">
+              <h2 className="text-2xl  text-white mb-2 text-left">
                 Jessica Cohen, "Katie"
               </h2>
               <img
