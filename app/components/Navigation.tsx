@@ -9,10 +9,6 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    {
-      name: "Tickets",
-      path: "https://www.ticketleap.events/tickets/holi-shamoli-productions/apprehension",
-    },
     { name: "About", path: "/about" },
     { name: "Images/Videos", path: "/media" },
     { name: "Cast & Crew", path: "/cast-crew" },
