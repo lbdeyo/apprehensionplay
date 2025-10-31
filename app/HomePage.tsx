@@ -77,15 +77,8 @@ export default function HomePage() {
           </div>
           <div className="my-5 md:my-10 flex flex-col md:flex-row md:justify-center items-start md:items-center gap-8">
             <p className="hidden md:block text-white text-2xl md:text-4xl my-0">
-              Tickets are on sale now.
+              SOLD OUT.
             </p>
-            <a
-              href="https://www.ticketleap.events/tickets/holi-shamoli-productions/apprehension"
-              rel="noreferrer"
-              className="bg-white text-black px-8 py-4 my-0 rounded-full font-bold text-xl w-fit hover:bg-transparent hover:text-white border border-white transition-all"
-            >
-              Get Tickets
-            </a>
           </div>
 
           <div
