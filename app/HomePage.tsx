@@ -75,11 +75,11 @@ export default function HomePage() {
               A play by L.B. Deyo
             </p>
           </div>
-          <div className="my-5 md:my-10 flex flex-col md:flex-row md:justify-center items-start md:items-center gap-8">
+          {/* <div className="my-5 md:my-10 flex flex-col md:flex-row md:justify-center items-start md:items-center gap-8">
             <p className="hidden md:block text-white text-2xl md:text-4xl my-0">
               SOLD OUT.
             </p>
-          </div>
+          </div> */}
 
           <div
             className="flex flex-col md:flex-row opacity-0 animate-fade-in"
@@ -96,15 +96,8 @@ export default function HomePage() {
               className="p-5  border-b border-dashed border-[#BEB58F] md:max-w-[50%] text-[#cdc49b] text-2xl md:text-3xl"
               style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}
             >
-              <p className="md:my-2">Oct. 9-Nov. 1, Thurs-Sat, 8:00 pm</p>
-              <p className="md:my-2">
-                <a
-                  href="https://www.hydeparktheatre.org/"
-                  className="hover:underline"
-                >
-                  Hyde Park Theatre
-                </a>
-                , Austin, Texas
+              <p className="md:my-2 max-w-md">
+                Thank you, Austin, Texas, for a great run!
               </p>
             </div>
           </div>

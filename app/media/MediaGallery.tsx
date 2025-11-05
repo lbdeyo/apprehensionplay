@@ -21,6 +21,13 @@ export default function MediaGallery() {
     { type: "image" as const, src: "/img/bts/rehearsal-1-bts/rh1e.jpg" },
     { type: "image" as const, src: "/img/bts/rehearsal-1-bts/rh1f.jpg" },
     { type: "image" as const, src: "/img/bts/rehearsal-1-bts/rh1g.jpg" },
+    { type: "image" as const, src: "/img/bts/onstage/ava-blue.jpg" },
+    { type: "image" as const, src: "/img/bts/onstage/backyard-blue.jpg" },
+    {
+      type: "image" as const,
+      src: "/img/bts/onstage/mg-version-wide-blue.jpg",
+    },
+    { type: "image" as const, src: "/img/bts/onstage/struggle.jpg" },
     { type: "image" as const, src: "/img/media/social-05052025.png" },
     { type: "image" as const, src: "/img/media/social-05012025a.jpg" },
     { type: "image" as const, src: "/img/media/social-04292025a.jpg" },
