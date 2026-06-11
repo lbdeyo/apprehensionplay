@@ -51,16 +51,23 @@ export default function HomePage() {
         <section className="space-y-4 text-left">
           <div className="relative w-full max-w-3xl">
             <h1
-              className="text-xl md:text-4xl lg:text-4xl text-white mt-6 md:mt-5 inline-block  animate-fade-in"
+              className="text-2xl md:text-4xl lg:text-4xl text-white mt-6 md:mt-5 inline-block animate-fade-in"
+              style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}
+            >
+              Winner &ndash; Outstanding Original Script, Austin Theatre
+              Critics Awards 2025-2026
+            </h1>
+            <h2
+              className="text-lg md:text-2xl lg:text-2xl text-white mt-8 block animate-fade-in"
               style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}
             >
               "Absolutely taut...Like Sartre on speed." <br />- Brian Paul
               Scipione, <i>CTX Live Theatre</i>
-            </h1>
+            </h2>
           </div>
           <div className="relative w-full max-w-max">
             <h1
-              className="text-6xl md:text-9xl lg:text-9xl text-white mt-6 md:mt-5 inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F] animate-fade-in"
+              className="text-6xl md:text-9xl lg:text-9xl text-white inline-block underline decoration-dashed decoration-1 underline-offset-8 decoration-[#BEB58F] animate-fade-in"
               style={{ textShadow: "1px 2px 4px rgba(0,0,0,0.9)" }}
             >
               Apprehension
